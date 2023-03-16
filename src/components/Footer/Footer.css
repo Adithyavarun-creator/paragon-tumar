@@ -1,0 +1,66 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 50px 50px;
+  background-color: grey;
+}
+
+.footerTextbox {
+  flex: 2;
+}
+
+.footerTextContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footerText {
+  text-transform: uppercase;
+}
+
+.footerNavlinks {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  justify-content: center;
+}
+
+.footerContact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+}
+
+.footerContactbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.emailDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.footerSocial {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.copyrightBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.scrollUpicon {
+  height: 50px;
+  width: 50px;
+  color: white;
+  cursor: pointer;
+}

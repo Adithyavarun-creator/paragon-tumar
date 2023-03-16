@@ -1,0 +1,42 @@
+.navContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: grey; */
+  height: 50px;
+  padding-top: 15px;
+  padding-right: 0;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  z-index: 5;
+}
+
+.navLogo {
+  flex: 1;
+}
+
+.navLogoimage {
+  height: 20px;
+  width: 20%;
+  object-fit: cover;
+}
+
+.navLists {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.navList {
+  text-decoration: none;
+  gap: 10px;
+  list-style: none;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.projectContainer {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projectCardbox {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  justify-content: space-evenly;
+  row-gap: 100px;
+  column-gap: 50px;
+}

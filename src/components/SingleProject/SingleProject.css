@@ -1,0 +1,82 @@
+.singleProjectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.singleProjectcover {
+  width: 100%;
+  height: 580px;
+  object-fit: cover;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
+.singleProjectimageText {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 300px;
+  right: 0;
+  left: 0;
+}
+
+.singleProjecttitle {
+  font-size: 58px;
+  color: white;
+  text-transform: uppercase;
+  z-index: 100;
+  font-weight: bolder;
+}
+
+.singleProjectcategory {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  z-index: 100;
+}
+
+.singleProjectContent {
+  padding: 60px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.singleProjectInfobox {
+  display: flex;
+  flex-direction: row;
+}
+
+.singleProjectInfo {
+  flex: 1;
+}
+
+.singleProjectArticlebox {
+  flex: 2;
+}
+
+.singleProjectAcheives {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  justify-content: center;
+}
+
+.singleProjectImages {
+  height: 800px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.popupcontainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+}

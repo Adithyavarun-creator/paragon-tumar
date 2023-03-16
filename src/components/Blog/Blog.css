@@ -1,0 +1,25 @@
+.blogContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  padding: 50px 50px;
+  cursor: pointer;
+}
+
+.blogBox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.blogCoverimage {
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.blogDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,48 @@
+.teamContainer {
+  padding: 100px 100px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  flex-direction: column;
+}
+
+.teamImageContent {
+  flex: 1;
+}
+
+.teamContent {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamImage {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.teamIntroSubsRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.teamIntroSubsLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.teamIntro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.teamIntroDesc {
+  font-size: 17px;
+  text-align: justify;
+}

@@ -1,0 +1,43 @@
+.modal {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  top: 20px;
+  z-index: 50;
+  /* top: -800px; */
+}
+
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  /* top: -785px; */
+  /* border: 1px solid salmon; */
+  top: 0;
+}
+
+.modalCloseposition {
+  position: absolute;
+  top: 2;
+  right: -62px;
+}
+.modalCloseicon {
+  height: 30px;
+  width: 30px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.modalImage {
+  height: 480px;
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid white;
+  padding: 30px 30px;
+  background-color: white;
+  border: 1px solid black;
+}

@@ -1,0 +1,41 @@
+.sliderBox {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.sectionPosition {
+  position: relative;
+}
+
+.sliderImage {
+  min-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 650px;
+  z-index: -4;
+}
+
+/* .sliderText {
+  position: absolute;
+  z-index: 10;
+  top: 60px;
+  right: 40px;
+  padding: 10px 12px;
+  background-color: black;
+  border: 3px solid orangered;
+  border-radius: 20px;
+} */
+
+.sliderImageText {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.mainSlider {
+  background: #eca;
+}
