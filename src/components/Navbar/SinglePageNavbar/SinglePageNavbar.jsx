@@ -4,7 +4,6 @@ import Logo from "../../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
-import { navDatas } from "../../../datas/navDatas";
 
 const SinglePageNavbar = () => {
   const [sidebar, setSidebar] = useState(false);
