@@ -1,9 +1,9 @@
 import React from "react";
 import Footer from "./components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./components/HomePage";
-import ProjectPage from "./pages/ProjectPage";
-import ContactPage from "./pages/ContactPage";
+import HomePage from "./routepage/HomePage";
+import ProjectPage from "./routepage/ProjectPage";
+import ContactPage from "./routepage/ContactPage";
 
 const App = () => {
   return (
