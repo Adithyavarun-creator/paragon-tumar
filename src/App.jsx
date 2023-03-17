@@ -1,14 +1,16 @@
 import React from "react";
 import Footer from "./components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
-import Homepage from "./pages/Homepage";
+import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
+import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   return (
     <>
       <Routes>
-        <Route index path="/" element={<Homepage />} />
+        <Route index path="/" element={<HomePage />} />
+        <Route index path="/contact" element={<ContactPage />} />
         <Route path="/project/:slug" element={<ProjectPage />} />
       </Routes>
       <Footer />

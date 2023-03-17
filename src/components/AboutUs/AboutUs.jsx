@@ -11,7 +11,7 @@ const AboutUs = () => {
         {/* Who We Are */}
         <div className="aboutContent">
           <div className="aboutWhat">
-            <span>Who We Are</span>
+            <span className="aboutWhatheadingtext">Who We Are</span>
           </div>
           <div className="aboutWhatDoing">
             <div>
@@ -31,31 +31,31 @@ const AboutUs = () => {
             <div className="aboutOpt">
               <div className="aboutOptions">
                 <div>
-                  <span>Strategy</span>
+                  <span className="aboutOptionsHeading">Strategy</span>
                 </div>
-                <div className="aboutOptionList">
-                  <li>Digital Strategy</li>
-                  <li>Content Strategy</li>
-                  <li>Responsive developement</li>
-                  <li>Web Design</li>
-                  <li>Motion Design </li>
-                  <li>Data Analysis</li>
-                  <li>Brand Experience</li>
+                <div className="aboutOptionLists">
+                  <li className="aboutOptionList">Digital Strategy</li>
+                  <li className="aboutOptionList">Content Strategy</li>
+                  <li className="aboutOptionList">Responsive developement</li>
+                  <li className="aboutOptionList">Web Design</li>
+                  <li className="aboutOptionList">Motion Design </li>
+                  <li className="aboutOptionList">Data Analysis</li>
+                  <li className="aboutOptionList">Brand Experience</li>
                 </div>
               </div>
 
               <div className="aboutOptions">
                 <div>
-                  <span>Development</span>
+                  <span className="aboutOptionsHeading">Development</span>
                 </div>
                 <div className="aboutOptionList">
-                  <li>Digital Strategy</li>
-                  <li>Content Strategy</li>
-                  <li>Responsive developement</li>
-                  <li>Web Design</li>
-                  <li>Motion Design </li>
-                  <li>Data Analysis</li>
-                  <li>Brand Experience</li>
+                  <li className="aboutOptionList">Digital Strategy</li>
+                  <li className="aboutOptionList">Content Strategy</li>
+                  <li className="aboutOptionList">Responsive developement</li>
+                  <li className="aboutOptionList">Web Design</li>
+                  <li className="aboutOptionList">Motion Design </li>
+                  <li className="aboutOptionList">Data Analysis</li>
+                  <li className="aboutOptionList">Brand Experience</li>
                 </div>
               </div>
             </div>
@@ -65,18 +65,20 @@ const AboutUs = () => {
         {/* What We Do */}
         <div className="aboutContent">
           <div className="aboutWhat">
-            <span>What We Do</span>
+            <span className="aboutWhatheadingtext">What We Do</span>
           </div>
           <div className="aboutWhatWeDoContent">
             {whatWeDo.map((project) => (
               <div className="aboutContents" key={project.id}>
                 <div className="aboutContentNames">
-                  <span>0{project.id}</span>
-                  <span>{project.title}</span>
+                  <span className="aboutContentnumber">0{project.id}</span>
+                  <span className="aboutContenttitle">{project.title}</span>
                 </div>
                 <div className="aboutContentNames">
-                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                  <span style={{ textAlign: "justify" }}>
+                  <span className="spacebar">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+                  <span className="aboutContentdesc">
                     {project.description}
                   </span>
                 </div>
@@ -89,19 +91,21 @@ const AboutUs = () => {
         {/* Work Process */}
         <div className="aboutContent">
           <div className="aboutWhat">
-            <span>Work Process</span>
+            <span className="aboutWhatheadingtext">Work Process</span>
           </div>
           <div className="workProcessContents">
             {workProcess.map((work) => (
               <div className="workProcessContentBox" key={work.id}>
                 <div>
-                  <span>0{work.id}</span>
+                  <span className="workProcessContentnumber">0{work.id}</span>
                 </div>
                 <div>
-                  <span>{work.title}</span>
+                  <span className="workProcessContenttitle">{work.title}</span>
                 </div>
                 <div>
-                  <span style={{ fontSize: "14px" }}>{work.description}</span>
+                  <span className="workProcessContentdesc">
+                    {work.description}
+                  </span>
                 </div>
               </div>
             ))}
@@ -111,7 +115,7 @@ const AboutUs = () => {
         {/* Our Skills */}
         <div className="aboutContent">
           <div className="aboutWhat">
-            <span>Our Skills</span>
+            <span className="aboutWhatheadingtext">Our Skills</span>
           </div>
           <div className="ourSkillContents">
             {ourSkills.map((skill) => (
@@ -119,15 +123,18 @@ const AboutUs = () => {
                 <div className="border-top" />
                 <div className="ourskillContent">
                   <div>
-                    <span>{skill.count}</span>
+                    <span className="ourskillContentcount">{skill.count}</span>
                   </div>
                   <div>
-                    <span>{skill.name}</span>
+                    <span className="ourskillContentname">{skill.name}</span>
                   </div>
                   <div className="skillList">
                     {skill.list.map((list, i) => (
-                      <div key={i}>
-                        <li>{list}</li>
+                      <div className="skillContentLists" key={i}>
+                        <div>&#9702;</div>
+                        <div>
+                          <li className="skillContentList">{list}</li>
+                        </div>
                       </div>
                     ))}
                   </div>

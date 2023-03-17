@@ -1,106 +1,897 @@
-.aboutContainer {
-  padding: 60px 60px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 60px;
+@media (min-width: 1281px) {
+  .aboutContainer {
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    row-gap: 50px;
+  }
+
+  .aboutContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+  }
+
+  .aboutWhatheadingtext {
+    font-size: 38px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .aboutWhat {
+    flex: 2;
+  }
+
+  .aboutWhatDoing {
+    flex: 3;
+  }
+
+  .aboutWhatContent {
+    font-size: 15px;
+    text-align: justify;
+    color: var(--white);
+  }
+
+  .aboutOpt {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+  }
+
+  .aboutOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .aboutOptionheading {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+  }
+
+  .aboutOptionsHeading {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .aboutOptionLists {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .aboutOptionList {
+    font-size: 14px;
+    color: var(--white);
+  }
+
+  .aboutOptionListing {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .aboutWhatWeDoContent {
+    flex: 3;
+  }
+
+  .aboutContents {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .aboutContentnumber {
+    font-size: 20px;
+    color: var(--white);
+  }
+  .aboutContenttitle {
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--white);
+  }
+
+  .aboutContentNames {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .aboutContentdesc {
+    text-align: justify;
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .workProcessContents {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    justify-content: space-around;
+    row-gap: 70px;
+    column-gap: 50px;
+  }
+
+  .workProcessContentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .workProcessContentnumber {
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--white);
+  }
+
+  .workProcessContenttitle {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .workProcessContentdesc {
+    font-size: 16px;
+    color: var(--white);
+  }
+
+  .ourSkillContents {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .ourskillContent {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ourskillContentcount {
+    font-size: 58px;
+    color: var(--white);
+  }
+  .ourskillContentname {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .skillList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skillContentLists {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .skillContentList {
+    font-size: 12px;
+    color: var(--white);
+  }
 }
 
-.aboutContent {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-bottom: 100px;
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .aboutContainer {
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    row-gap: 50px;
+  }
+
+  .aboutContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+  }
+
+  .aboutWhatheadingtext {
+    font-size: 38px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .aboutWhat {
+    flex: 2;
+  }
+
+  .aboutWhatDoing {
+    flex: 3;
+  }
+
+  .aboutWhatContent {
+    font-size: 15px;
+    text-align: justify;
+    color: var(--white);
+  }
+
+  .aboutOpt {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+  }
+
+  .aboutOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .aboutOptionheading {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+  }
+
+  .aboutOptionsHeading {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .aboutOptionLists {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .aboutOptionList {
+    font-size: 14px;
+    color: var(--white);
+  }
+
+  .aboutOptionListing {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .aboutWhatWeDoContent {
+    flex: 3;
+  }
+
+  .aboutContents {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .aboutContentnumber {
+    font-size: 20px;
+    color: var(--white);
+  }
+  .aboutContenttitle {
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--white);
+  }
+
+  .aboutContentNames {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .aboutContentdesc {
+    text-align: justify;
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .workProcessContents {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    justify-content: space-around;
+    row-gap: 70px;
+    column-gap: 50px;
+  }
+
+  .workProcessContentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .workProcessContentnumber {
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--white);
+  }
+
+  .workProcessContenttitle {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .workProcessContentdesc {
+    font-size: 16px;
+    color: var(--white);
+  }
+
+  .ourSkillContents {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .ourskillContent {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ourskillContentcount {
+    font-size: 58px;
+    color: var(--white);
+  }
+  .ourskillContentname {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .skillList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skillContentLists {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .skillContentList {
+    font-size: 12px;
+    color: var(--white);
+  }
 }
 
-.aboutWhat {
-  flex: 1;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    row-gap: 50px;
+    padding: 20px 20px;
+  }
+
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .aboutWhatheadingtext {
+    font-size: 38px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .aboutWhat {
+    flex: 2;
+  }
+
+  .aboutWhatDoing {
+    flex: 3;
+  }
+
+  .aboutWhatContent {
+    font-size: 15px;
+    text-align: justify;
+    color: var(--white);
+  }
+
+  .aboutOpt {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+  }
+
+  .aboutOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .aboutOptionheading {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+  }
+
+  .aboutOptionsHeading {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .aboutOptionLists {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .aboutOptionList {
+    font-size: 14px;
+    color: var(--white);
+  }
+
+  .aboutOptionListing {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .aboutWhatWeDoContent {
+    flex: 3;
+  }
+
+  .aboutContents {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .aboutContentnumber {
+    font-size: 20px;
+    color: var(--white);
+  }
+  .aboutContenttitle {
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--white);
+  }
+
+  .aboutContentNames {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .aboutContentdesc {
+    text-align: justify;
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .workProcessContents {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    justify-content: space-around;
+    row-gap: 20px;
+    column-gap: 50px;
+  }
+
+  .workProcessContentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 20px;
+  }
+
+  .workProcessContentnumber {
+    font-size: 16px;
+    font-weight: lighter;
+    color: var(--white);
+  }
+
+  .workProcessContenttitle {
+    font-size: 26px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .workProcessContentdesc {
+    font-size: 14px;
+    color: var(--white);
+  }
+
+  .ourSkillContents {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .ourskillContent {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ourskillContentcount {
+    font-size: 48px;
+    color: var(--white);
+  }
+  .ourskillContentname {
+    font-size: 20px;
+    color: var(--white);
+  }
+
+  .skillList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skillContentLists {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .skillContentList {
+    font-size: 12px;
+    color: var(--white);
+  }
 }
 
-.aboutWhatDoing {
-  flex: 3;
+@media (min-width: 481px) and (max-width: 767px) {
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    row-gap: 50px;
+    padding: 20px 20px;
+  }
+
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .aboutWhatheadingtext {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .aboutWhat {
+    flex: 2;
+  }
+
+  .aboutWhatDoing {
+    flex: 3;
+  }
+
+  .aboutWhatContent {
+    font-size: 12px;
+    text-align: justify;
+    color: var(--white);
+  }
+
+  .spacebar {
+  }
+
+  .aboutOpt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .aboutOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .aboutOptionheading {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+  }
+
+  .aboutOptionsHeading {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .aboutOptionLists {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .aboutOptionList {
+    font-size: 14px;
+    color: var(--white);
+  }
+
+  .aboutOptionListing {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .aboutWhatWeDoContent {
+    flex: 3;
+  }
+
+  .aboutContents {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .aboutContentnumber {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: lighter;
+  }
+  .aboutContenttitle {
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--white);
+  }
+
+  .aboutContentNames {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .aboutContentdesc {
+    text-align: justify;
+    font-size: 14px;
+    color: var(--white);
+    margin-bottom: 30px;
+  }
+
+  .workProcessContents {
+    flex: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
+  .workProcessContentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* padding: 20px 20px; */
+  }
+
+  .workProcessContentnumber {
+    font-size: 16px;
+    font-weight: lighter;
+    color: var(--white);
+  }
+
+  .workProcessContenttitle {
+    font-size: 18px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .workProcessContentdesc {
+    font-size: 15px;
+    color: var(--white);
+  }
+
+  .ourSkillContents {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .ourskillContent {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ourskillContentcount {
+    font-size: 35px;
+    color: var(--white);
+  }
+  .ourskillContentname {
+    font-size: 14px;
+    color: var(--white);
+  }
+
+  .skillList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skillContentLists {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .skillContentList {
+    font-size: 10px;
+    color: var(--white);
+    text-align: justify;
+  }
 }
 
-.aboutWhatContent {
-  font-size: 18px;
-  text-align: justify;
-}
+@media (min-width: 250px) and (max-width: 480px) {
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    row-gap: 50px;
+    padding: 20px 20px;
+  }
 
-.aboutOpt {
-  display: flex;
-  flex-direction: row;
-  gap: 300px;
-}
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.aboutOptions {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 40px;
-}
+  .aboutWhatheadingtext {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: bolder;
+  }
 
-.aboutOptionheading {
-  padding: 20px 20px;
-  margin-bottom: 20px;
-}
+  .aboutWhat {
+    flex: 2;
+  }
 
-.aboutOptionList {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
+  .aboutWhatDoing {
+    flex: 3;
+  }
 
-.aboutOptionListing {
-  display: flex;
-  flex-direction: row;
-  gap: 2px;
-}
+  .aboutWhatContent {
+    font-size: 12px;
+    text-align: justify;
+    color: var(--white);
+  }
 
-.aboutWhatWeDoContent {
-  flex: 3;
-}
+  .spacebar {
+  }
 
-.aboutContents {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-bottom: 80px;
-}
+  .aboutOpt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-.aboutContentNames {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
+  .aboutOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
 
-.workProcessContents {
-  flex: 3;
-  display: grid;
-  grid-template-columns: repeat(2, 350px);
-  justify-content: space-around;
-  row-gap: 70px;
-}
+  .aboutOptionheading {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+  }
 
-.workProcessContentBox {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
+  .aboutOptionsHeading {
+    font-size: 18px;
+    color: var(--white);
+  }
 
-.ourSkillContents {
-  flex: 3;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
+  .aboutOptionLists {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .aboutOptionList {
+    font-size: 14px;
+    color: var(--white);
+  }
 
-.ourskillContent {
-  display: grid;
-  grid-template-columns: repeat(3, 200px);
-  justify-content: space-evenly;
-}
+  .aboutOptionListing {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+  }
 
-.skillList {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  .aboutWhatWeDoContent {
+    flex: 3;
+  }
+
+  .aboutContents {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .aboutContentnumber {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: lighter;
+  }
+  .aboutContenttitle {
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--white);
+  }
+
+  .aboutContentNames {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .aboutContentdesc {
+    text-align: justify;
+    font-size: 14px;
+    color: var(--white);
+    margin-bottom: 30px;
+  }
+
+  .workProcessContents {
+    flex: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
+  .workProcessContentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* padding: 20px 20px; */
+  }
+
+  .workProcessContentnumber {
+    font-size: 16px;
+    font-weight: lighter;
+    color: var(--white);
+  }
+
+  .workProcessContenttitle {
+    font-size: 18px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .workProcessContentdesc {
+    font-size: 15px;
+    color: var(--white);
+  }
+
+  .ourSkillContents {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .ourskillContent {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ourskillContentcount {
+    font-size: 28px;
+    color: var(--white);
+  }
+  .ourskillContentname {
+    font-size: 12px;
+    color: var(--white);
+  }
+
+  .skillList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .skillContentLists {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .skillContentList {
+    font-size: 10px;
+    color: var(--white);
+    text-align: justify;
+  }
 }

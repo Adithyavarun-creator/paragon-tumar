@@ -1,48 +1,319 @@
-.teamContainer {
-  padding: 100px 100px;
-  display: flex;
-  align-items: center;
-  gap: 120px;
-  flex-direction: column;
+@media (min-width: 1281px) {
+  .teamContainer {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    padding: 100px 100px;
+  }
+
+  .teamImageContent {
+    flex: 1;
+  }
+
+  .teamContent {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teamImage {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .teamIntroSubsRight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teamIntroSubsLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .teamIntro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+
+  .teamPersonname {
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  .teamPersonposition {
+    font-size: 20px;
+    color: grey;
+  }
+
+  .teamIntroDesc {
+    font-size: 17px;
+    text-align: justify;
+    color: black;
+  }
 }
 
-.teamImageContent {
-  flex: 1;
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .teamContainer {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    padding: 40px 40px;
+  }
+
+  .teamImageContent {
+    flex: 1;
+  }
+
+  .teamContent {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teamImage {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .teamIntroSubsRight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teamIntroSubsLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .teamIntro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+
+  .teamPersonname {
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  .teamPersonposition {
+    font-size: 20px;
+    color: grey;
+  }
+
+  .teamIntroDesc {
+    font-size: 17px;
+    text-align: justify;
+    color: black;
+  }
 }
 
-.teamContent {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .teamContainer {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    padding: 30px 30px;
+  }
+
+  .teamImageContent {
+    flex: 1;
+  }
+
+  .teamContent {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teamImage {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .teamIntroSubsRight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teamIntroSubsLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .teamIntro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+
+  .teamPersonname {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .teamPersonposition {
+    font-size: 18px;
+    color: grey;
+  }
+
+  .teamIntroDesc {
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+  }
 }
 
-.teamImage {
-  height: 600px;
-  width: 100%;
-  object-fit: cover;
+@media (min-width: 481px) and (max-width: 767px) {
+  .teamContainer {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px 15px;
+  }
+
+  .teamImageContent {
+    /* flex: 1; */
+    flex: 0;
+  }
+
+  .teamContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 20px 20px;
+    border-radius: 40px;
+  }
+
+  .teamImage {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .teamIntroSubsRight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teamIntroSubsLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .teamIntro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* flex: 1; */
+  }
+
+  .teamPersonname {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .teamPersonposition {
+    font-size: 18px;
+    color: grey;
+  }
+
+  .teamIntroDesc {
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+  }
 }
 
-.teamIntroSubsRight {
-  display: flex;
-  flex-direction: column;
-}
+@media (min-width: 250px) and (max-width: 480px) {
+  .teamContainer {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-.teamIntroSubsLeft {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
+  .teamImageContent {
+    /* flex: 1; */
+    flex: 0;
+  }
 
-.teamIntro {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  flex: 1;
-}
+  .teamContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-.teamIntroDesc {
-  font-size: 17px;
-  text-align: justify;
+  .teamImage {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .teamIntroSubsRight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teamIntroSubsLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .teamIntro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* flex: 1; */
+  }
+
+  .teamPersonname {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .teamPersonposition {
+    font-size: 16px;
+    color: grey;
+  }
+
+  .teamIntroDesc {
+    font-size: 12px;
+    text-align: justify;
+    color: black;
+  }
 }

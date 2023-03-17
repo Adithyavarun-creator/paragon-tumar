@@ -1,6 +1,44 @@
-.centerTitle {
-  text-align: center;
-  font-size: 48px;
-  font-weight: lighter;
-  text-transform: uppercase;
+@media (min-width: 1281px) {
+  .centerTitle {
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .centerTitle {
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .centerTitle {
+    text-align: center;
+    font-size: 44px;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .centerTitle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 480px) {
+  .centerTitle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
 }

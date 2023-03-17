@@ -14,15 +14,15 @@ const Footer = () => {
     <div className="footerContainer">
       <div className="footerTextContent">
         <div className="footerTextbox">
-          <span className="footerText">The Best Agency for your business</span>
+          <span className="footerText">The Best Agency for your Business</span>
         </div>
         <div className="footerNavlinks">
-          <li>Home</li>
-          <li>About</li>
-          <li>Service</li>
-          <li>Portfolio</li>
-          <li>Blog</li>
-          <li>Contact</li>
+          <li className="footerNavlink">Home</li>
+          <li className="footerNavlink">About</li>
+          <li className="footerNavlink">Service</li>
+          <li className="footerNavlink">Portfolio</li>
+          <li className="footerNavlink">Blog</li>
+          <li className="footerNavlink">Contact</li>
         </div>
       </div>
       <div className="footerContact">
@@ -30,11 +30,21 @@ const Footer = () => {
         <div className="footerContactbox">
           <div className="footerContactbox">
             <div>
-              <span>Email:</span>
+              <span className="footerContactemail">Email:</span>
             </div>
             <div className="emailDetails">
-              <span>email@tumar_agency.com</span>
-              <span>email@tumar_job.com</span>
+              <span
+                className="contactText"
+                style={{ textDecoration: "underline" }}
+              >
+                email@tumar_agency.com
+              </span>
+              <span
+                className="contactText"
+                style={{ textDecoration: "underline" }}
+              >
+                email@tumar_job.com
+              </span>
             </div>
           </div>
         </div>
@@ -43,11 +53,11 @@ const Footer = () => {
         <div className="footerContactbox">
           <div className="footerContactbox">
             <div>
-              <span>Phone:</span>
+              <span className="footerContactemail">Phone:</span>
             </div>
             <div className="emailDetails">
-              <span>+23 8 8532 7834</span>
-              <span>+23 8 9635 7335</span>
+              <span className="contactText">+23 8 8532 7834</span>
+              <span className="contactText">+23 8 9635 7335</span>
             </div>
           </div>
         </div>
@@ -56,11 +66,11 @@ const Footer = () => {
         <div className="footerContactbox">
           <div className="footerContactbox">
             <div>
-              <span>Address:</span>
+              <span className="footerContactemail">Address:</span>
             </div>
             <div className="emailDetails">
-              <span>PO Box 223158 Oliver Street</span>
-              <span>East Victoria 2006 UK</span>
+              <span className="contactText">PO Box 223158 Oliver Street</span>
+              <span className="contactText">East Victoria 2006 UK</span>
             </div>
           </div>
         </div>
@@ -70,18 +80,20 @@ const Footer = () => {
 
       {/* Social Media Details */}
       <div className="footerSocial">
-        <span>FACEBOOK</span>
-        <span>DRIBBBLE</span>
-        <span>INSTAGRAM</span>
-        <span>YOUTUBE</span>
-        <span>BEHANCE</span>
-        <span>TWITTER</span>
+        <span className="footerSocialtext">FACEBOOK</span>
+        <span className="footerSocialtext">DRIBBBLE</span>
+        <span className="footerSocialtext">INSTAGRAM</span>
+        <span className="footerSocialtext">YOUTUBE</span>
+        <span className="footerSocialtext">BEHANCE</span>
+        <span className="footerSocialtext">TWITTER</span>
       </div>
 
       {/* Copyright Details */}
       <div className="copyrightBox">
         <div>
-          <span>© COPYRIGHT 2020 TUMAR. TEMPLATE BY JINNA GIK</span>
+          <span className="copyrightText">
+            © COPYRIGHT 2020 TUMAR. TEMPLATE BY JINNA GIK
+          </span>
         </div>
         <div>
           <FaArrowUp className="scrollUpicon" onClick={scrollUp} />

@@ -50,11 +50,11 @@ const SinglePageNavbar = () => {
           </div>
           {/* 2nd column */}
           <div className="singlepagesidebarnavlinks">
-            {navDatas.map((data) => (
-              <div className="singlepagesidebarnavlink">
-                <span className="">{data.name}</span>
-              </div>
-            ))}
+            <span>Home</span>
+            <span>About</span>
+            <span>Services</span>
+            <span>Blog</span>
+            <span>Contact</span>
           </div>
         </div>
       )}
@@ -63,3 +63,11 @@ const SinglePageNavbar = () => {
 };
 
 export default SinglePageNavbar;
+
+/**
+ {navDatas.map((data) => (
+              <div className="singlepagesidebarnavlink">
+                <span className="">{data.name}</span>
+              </div>
+            ))}
+ */

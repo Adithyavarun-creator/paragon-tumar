@@ -3,20 +3,20 @@ import SliderContent from "../components/SliderContent/SliderContent";
 import Projects from "../components/Projects/Projects";
 import AboutUs from "../components/AboutUs/AboutUs";
 import Team from "../components/Team/Team";
-import Blog from "../components/Blog/Blog";
-import HomepageNavbar from "../components/Navbar/HomepageNavbar/HomepageNavbar";
+import SinglePageNavbar from "../components/Navbar/SinglePageNavbar/SinglePageNavbar";
+import Marquee from "../components/Marquee/Marquee";
 
-const Homepage = () => {
+const HomePage = () => {
   return (
     <>
-      <HomepageNavbar />
+      <SinglePageNavbar />
       <SliderContent />
       <Projects />
       <AboutUs />
       <Team />
-      <Blog />
+      <Marquee />
     </>
   );
 };
 
-export default Homepage;
+export default HomePage;

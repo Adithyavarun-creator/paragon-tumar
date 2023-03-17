@@ -10,7 +10,7 @@ export const projectList = [
     awards: ["Best Services", "Best Website", "Best Agency"],
     role: ["UX/UI Design", "Web Development", "Motion Design"],
     coverImage:
-      "https://images.unsplash.com/photo-1678817546438-acc28fac4d3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=60",
+      "https://images.unsplash.com/photo-1678653300212-7fbd1ddd1902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1200&q=60",
     imagesArray: [
       {
         id: 1,
@@ -40,7 +40,7 @@ export const projectList = [
     awards: ["Best Services", "Best Website", "Best Agency"],
     role: ["UX/UI Design", "Web Development", "Motion Design"],
     coverImage:
-      "https://images.unsplash.com/photo-1678842690256-b30d08c159b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=60",
+      "https://images.unsplash.com/photo-1678711267884-ae34ed9d4c29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3OHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=60",
     imagesArray: [
       {
         id: 1,
@@ -62,7 +62,7 @@ export const projectList = [
   {
     id: 3,
     coverImage:
-      "https://plus.unsplash.com/premium_photo-1663013668671-d453f319544f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1200&q=60",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c25lYWtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1200&q=60",
     title: "Sneakers",
     category: "Marketing",
     year: 2020,
@@ -71,8 +71,6 @@ export const projectList = [
     platforms: ["Mobile", "Tablet", "Desktop"],
     awards: ["Best Services", "Best Website", "Best Agency"],
     role: ["UX/UI Design", "Web Development", "Motion Design"],
-    coverImage:
-      "https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c25lYWtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1200&q=60",
     imagesArray: [
       {
         id: 1,
@@ -134,8 +132,6 @@ export const projectList = [
     platforms: ["Mobile", "Tablet", "Desktop"],
     awards: ["Best Services", "Best Website", "Best Agency"],
     role: ["UX/UI Design", "Web Development", "Motion Design"],
-    coverImage:
-      "https://images.unsplash.com/photo-1678851168042-cc40b9f93a8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=60",
     imagesArray: [
       {
         id: 1,

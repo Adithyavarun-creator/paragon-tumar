@@ -2,11 +2,14 @@ import React from "react";
 import Title from "../Title/Title";
 import "./Team.css";
 
+//        <Title title="Our Creative Team" />
+
 const Team = () => {
   return (
     <>
-      <Title title="Our Creative Team" />
       <div className="teamContainer">
+        <Title title="Our Creative Team" />
+
         <div className="teamContent">
           <div className="teamImageContent">
             <img
@@ -16,8 +19,8 @@ const Team = () => {
           </div>
           <div className="teamIntro">
             <div className="teamIntroSubsRight">
-              <span>Jason Hardeman</span>
-              <span>Creative Director</span>
+              <span className="teamPersonname">Jason Hardeman</span>
+              <span className="teamPersonposition">Creative Director</span>
             </div>
             <div>
               <article className="teamIntroDesc">
@@ -34,8 +37,8 @@ const Team = () => {
         <div className="teamContent">
           <div className="teamIntro">
             <div className="teamIntroSubsLeft">
-              <span>Amanda Bryan</span>
-              <span>Front-end Developer</span>
+              <span className="teamPersonname">Amanda Bryan</span>
+              <span className="teamPersonposition">Front-end Developer</span>
             </div>
             <div>
               <article className="teamIntroDesc">
@@ -64,8 +67,8 @@ const Team = () => {
           </div>
           <div className="teamIntro">
             <div className="teamIntroSubsRight">
-              <span>Henry Matthews</span>
-              <span>UI/UX Designer</span>
+              <span className="teamPersonname">Henry Matthews</span>
+              <span className="teamPersonposition">UI/UX Designer</span>
             </div>
             <div>
               <article className="teamIntroDesc">

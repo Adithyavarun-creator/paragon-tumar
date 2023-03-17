@@ -1,0 +1,375 @@
+@media (min-width: 1281px) {
+  /* CSS */
+
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+
+  .contactofficevideo {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    filter: blur(2px);
+  }
+
+  .contactvideoTextbox {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 50px;
+  }
+
+  .contactvideoText {
+    font-size: 38px;
+    color: var(--white);
+    z-index: 30;
+    font-weight: bold;
+  }
+
+  .contactDetailsBox {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 30px 30px;
+    align-items: center;
+  }
+
+  .contactImageBox {
+    flex: 2;
+  }
+
+  .contactDetailBox {
+    flex: 2;
+  }
+
+  .contactImage {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .contactBoxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-top: 30px;
+  }
+
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contactDetailBoxtext {
+    font-size: 40px;
+    color: var(--white);
+    text-transform: uppercase;
+  }
+
+  .contactBoxheading {
+    font-size: 24px;
+    color: var(--white);
+  }
+
+  .contactBoxheadingsubs {
+    font-size: 22px;
+    color: var(--white);
+  }
+
+  .contactBoxlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+
+  .contactofficevideo {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    filter: blur(2px);
+  }
+
+  .contactvideoTextbox {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactvideoText {
+    font-size: 38px;
+    color: white;
+    z-index: 30;
+    font-weight: bold;
+  }
+
+  .contactDetailsBox {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 30px 30px;
+    align-items: center;
+  }
+
+  .contactImageBox {
+    flex: 2;
+  }
+
+  .contactDetailBox {
+    flex: 2;
+  }
+
+  .contactImage {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .contactBoxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-top: 30px;
+  }
+
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contactDetailBoxtext {
+    font-size: 38px;
+    color: var(--white);
+    text-transform: uppercase;
+  }
+
+  .contactBoxheading {
+    font-size: 24px;
+    color: var(--white);
+  }
+
+  .contactBoxheadingsubs {
+    font-size: 22px;
+    color: var(--white);
+  }
+
+  .contactBoxlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+
+  .contactofficevideo {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    filter: blur(2px);
+  }
+
+  .contactvideoTextbox {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactvideoText {
+    font-size: 38px;
+    color: white;
+    z-index: 30;
+    font-weight: bold;
+  }
+
+  .contactDetailsBox {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 30px 30px;
+    align-items: center;
+  }
+
+  .contactImageBox {
+    flex: 2;
+  }
+
+  .contactDetailBox {
+    flex: 2;
+  }
+
+  .contactImage {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .contactBoxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-top: 30px;
+  }
+
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .contactDetailBoxtext {
+    font-size: 35px;
+    color: var(--white);
+    text-transform: uppercase;
+  }
+
+  .contactBoxheading {
+    font-size: 24px;
+    color: var(--white);
+  }
+
+  .contactBoxheadingsubs {
+    font-size: 20px;
+    color: var(--white);
+  }
+
+  .contactBoxlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+
+  .contactofficevideo {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    filter: blur(2px);
+  }
+
+  .contactvideoTextbox {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 40px 40px;
+  }
+
+  .contactvideoText {
+    font-size: 28px;
+    color: white;
+    z-index: 30;
+    font-weight: bold;
+  }
+
+  .contactDetailsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 15px;
+    /* align-items: center; */
+  }
+
+  .contactImageBox {
+    flex: 2;
+  }
+
+  .contactDetailBox {
+    flex: 2;
+  }
+
+  .contactImage {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .contactBoxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-top: 30px;
+  }
+
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .contactDetailBoxtext {
+    font-size: 28px;
+    color: var(--white);
+    text-transform: uppercase;
+  }
+
+  .contactBoxheading {
+    font-size: 14px;
+    color: var(--white);
+  }
+
+  .contactBoxheadingsubs {
+    font-size: 12px;
+    color: var(--white);
+  }
+
+  .contactBoxlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 480px) {
+}

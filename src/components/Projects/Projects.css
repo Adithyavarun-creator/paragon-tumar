@@ -1,14 +1,229 @@
-.projectContainer {
-  margin-top: 70px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+@media (min-width: 1281px) {
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--white);
+    padding: 50px 50px;
+  }
+
+  .projectCardbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+    gap: 90px;
+    justify-content: center;
+  }
+
+  .projectCard:nth-child(even) {
+    margin-bottom: -650px;
+    margin-top: 300px;
+  }
+
+  .projectCard:last-child {
+    margin-bottom: 100px;
+  }
+  .projectImage {
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+  }
+
+  .projectDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boxing {
+    border-bottom: 1px solid black;
+  }
 }
 
-.projectCardbox {
-  display: grid;
-  grid-template-columns: repeat(2, 500px);
-  justify-content: space-evenly;
-  row-gap: 100px;
-  column-gap: 50px;
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--white);
+    padding: 50px 50px;
+  }
+
+  .projectCardbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+    gap: 90px;
+    justify-content: center;
+  }
+
+  .projectCard:nth-child(even) {
+    margin-bottom: -650px;
+    margin-top: 300px;
+  }
+
+  .projectCard:last-child {
+    margin-bottom: 100px;
+  }
+  .projectImage {
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+  }
+
+  .projectDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boxing {
+    border-bottom: 1px solid black;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--white);
+    padding: 35px 35px;
+  }
+
+  .projectCardbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+    gap: 90px;
+    justify-content: center;
+  }
+
+  .projectCard:nth-child(even) {
+    margin-bottom: -650px;
+    margin-top: 300px;
+  }
+
+  .projectCard:last-child {
+    margin-bottom: 100px;
+  }
+  .projectImage {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+  }
+
+  .projectDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boxing {
+    border-bottom: 1px solid black;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--white);
+    padding: 35px 35px;
+  }
+
+  .projectCardbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    cursor: pointer;
+    gap: 120px;
+    justify-content: center;
+  }
+
+  .projectCard:last-child {
+    margin-bottom: 70px;
+  }
+  .projectImage {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+  }
+
+  .projectDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boxing {
+    border-bottom: 1px solid black;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 480px) {
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--white);
+    padding: 15px 15px;
+  }
+
+  .projectCardbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    cursor: pointer;
+    gap: 80px;
+    justify-content: center;
+  }
+
+  .projectCard:last-child {
+    margin-bottom: 60px;
+  }
+  .projectImage {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+  }
+
+  .projectDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boxing {
+    border-bottom: 1px solid black;
+  }
 }

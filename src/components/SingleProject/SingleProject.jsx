@@ -20,7 +20,7 @@ const SingleProject = () => {
 
   //console.log(project);
 
-  console.log(file);
+  //console.log(file);
   //console.log(project?.imagesArray?.[0].image);
 
   return (
@@ -28,11 +28,7 @@ const SingleProject = () => {
       <div className="singleProjectContainer">
         <div>
           <img
-            src={
-              project?.coverImage
-                ? project?.coverImage
-                : "https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c25lYWtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1200&q=60"
-            }
+            src={project?.coverImage ? project?.coverImage : ""}
             className="singleProjectcover"
           />
         </div>
