@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Routes>
         <Route index path="/" element={<HomePage />} />
-        <Route index path="/contact" element={<ContactPage />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="/project/:slug" element={<ProjectPage />} />
       </Routes>
       <Footer />
