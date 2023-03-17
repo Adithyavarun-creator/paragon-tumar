@@ -2,7 +2,6 @@ import React from "react";
 import "./HomepageNavbar.css";
 import Logo from "../../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 
 const HomepageNavbar = () => {
   return (

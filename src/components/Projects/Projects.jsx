@@ -3,8 +3,6 @@ import "./Projects.css";
 import { projectList } from "../../datas/projectList";
 import Title from "../Title/Title";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-//https://sqares.com/assets/images/allsqrs/qr1.jpg
 
 const Projects = () => {
   return (
