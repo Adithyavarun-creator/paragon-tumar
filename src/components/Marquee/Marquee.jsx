@@ -1,13 +1,10 @@
 import React from "react";
 import "./Marquee.css";
 
-const Marquee = () => {
+const Marquee = ({ ContentTitle }) => {
   return (
     <div className="marquee-w">
-      <span>
-        WE GENERATE CREATIVE & INNOVATION IDEAS / WE GENERATE CREATIVE &
-        INNOVATION IDEAS
-      </span>
+      <span>{ContentTitle}</span>
     </div>
   );
 };

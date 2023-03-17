@@ -1,82 +1,594 @@
-.singleProjectContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+@media (min-width: 1281px) {
+  .singleProjectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .singleProjectcover {
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  }
+
+  .singleProjectimageText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 300px;
+    right: 0;
+    left: 0;
+  }
+
+  .singleProjecttitle {
+    font-size: 30px;
+    color: var(--white);
+    text-transform: uppercase;
+    z-index: 100;
+    font-weight: bolder;
+  }
+
+  .singleProjectcategory {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 100;
+  }
+
+  .singleProjectContent {
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .singleProjectInfobox {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .singleProjectInfo {
+    flex: 1;
+  }
+
+  .singleProjectInfotext {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+  .singleProjectInfoarticle {
+    font-size: 20px;
+    color: var(--white);
+  }
+
+  .singleProjectArticlebox {
+    flex: 2;
+  }
+
+  .singleProjectAcheives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .singleProjectAcheiveTitle {
+    font-size: 28px;
+    color: var(--white);
+  }
+
+  .singleProjectInfotitle {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .singleProjectArticle {
+    font-size: 24px;
+    color: var(--white);
+    text-align: justify;
+  }
+  .singleProjectAcheiveTitlelist {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .singleProjectImages {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .popupcontainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+  }
 }
 
-.singleProjectcover {
-  width: 100%;
-  height: 580px;
-  object-fit: cover;
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .singleProjectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .singleProjectcover {
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  }
+
+  .singleProjectimageText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 300px;
+    right: 0;
+    left: 0;
+  }
+
+  .singleProjecttitle {
+    font-size: 30px;
+    color: var(--white);
+    text-transform: uppercase;
+    z-index: 100;
+    font-weight: bolder;
+  }
+
+  .singleProjectcategory {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 100;
+  }
+
+  .singleProjectContent {
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .singleProjectInfobox {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .singleProjectInfo {
+    flex: 1;
+  }
+
+  .singleProjectInfotext {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+  .singleProjectInfoarticle {
+    font-size: 20px;
+    color: var(--white);
+  }
+
+  .singleProjectArticlebox {
+    flex: 2;
+  }
+
+  .singleProjectAcheives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .singleProjectAcheiveTitle {
+    font-size: 28px;
+    color: var(--white);
+  }
+
+  .singleProjectInfotitle {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .singleProjectArticle {
+    font-size: 24px;
+    color: var(--white);
+    text-align: justify;
+  }
+  .singleProjectAcheiveTitlelist {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .singleProjectImages {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .popupcontainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+  }
 }
 
-.singleProjectimageText {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  top: 300px;
-  right: 0;
-  left: 0;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .singleProjectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .singleProjectcover {
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  }
+
+  .singleProjectimageText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 300px;
+    right: 0;
+    left: 0;
+  }
+
+  .singleProjecttitle {
+    font-size: 30px;
+    color: var(--white);
+    text-transform: uppercase;
+    z-index: 100;
+    font-weight: bolder;
+  }
+
+  .singleProjectcategory {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 100;
+  }
+
+  .singleProjectContent {
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .singleProjectInfobox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .singleProjectInfo {
+    flex: 1;
+  }
+
+  .singleProjectInfotext {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .singleProjectInfoarticle {
+    font-size: 16px;
+    color: var(--white);
+  }
+
+  .singleProjectArticlebox {
+    flex: 2;
+  }
+
+  .singleProjectAcheives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .singleProjectAcheiveTitle {
+    font-size: 24px;
+    color: var(--white);
+  }
+
+  .singleProjectInfotitle {
+    font-size: 22px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .singleProjectArticle {
+    font-size: 20px;
+    color: var(--white);
+    text-align: justify;
+  }
+  .singleProjectAcheiveTitlelist {
+    font-size: 14px;
+    color: var(--white);
+  }
+  .imagesArrayBox {
+    padding: 20px 20px;
+  }
+
+  .singleProjectImages {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .popupcontainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+  }
 }
 
-.singleProjecttitle {
-  font-size: 58px;
-  color: white;
-  text-transform: uppercase;
-  z-index: 100;
-  font-weight: bolder;
+@media (min-width: 481px) and (max-width: 767px) {
+  .singleProjectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .singleProjectcover {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  }
+
+  .singleProjectimageText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    right: 0;
+    left: 0;
+  }
+
+  .singleProjecttitle {
+    font-size: 35px;
+    color: var(--white);
+    text-transform: uppercase;
+    z-index: 100;
+    font-weight: bolder;
+  }
+
+  .singleProjectcategory {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 100;
+  }
+
+  .singleProjectContent {
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .singleProjectInfobox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .singleProjectInfo {
+    flex: 1;
+  }
+
+  .singleProjectInfotext {
+    font-size: 18px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .singleProjectInfoarticle {
+    font-size: 16px;
+    color: var(--white);
+  }
+
+  .singleProjectArticlebox {
+    flex: 2;
+  }
+
+  .singleProjectAcheives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .singleProjectAcheiveTitle {
+    font-size: 20px;
+    color: var(--white);
+  }
+
+  .singleProjectInfotitle {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .singleProjectArticle {
+    font-size: 14px;
+    color: var(--white);
+    text-align: justify;
+  }
+  .singleProjectAcheiveTitlelist {
+    font-size: 18px;
+    color: var(--white);
+  }
+  .imagesArrayBox {
+    padding: 20px 20px;
+  }
+
+  .singleProjectImages {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .popupcontainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+  }
 }
 
-.singleProjectcategory {
-  font-size: 40px;
-  color: white;
-  text-transform: uppercase;
-  z-index: 100;
-}
+@media (min-width: 250px) and (max-width: 480px) {
+  .singleProjectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 
-.singleProjectContent {
-  padding: 60px 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
+  .singleProjectcover {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  }
 
-.singleProjectInfobox {
-  display: flex;
-  flex-direction: row;
-}
+  .singleProjectimageText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    right: 0;
+    left: 0;
+  }
 
-.singleProjectInfo {
-  flex: 1;
-}
+  .singleProjecttitle {
+    font-size: 35px;
+    color: var(--white);
+    text-transform: uppercase;
+    z-index: 100;
+    font-weight: bolder;
+  }
 
-.singleProjectArticlebox {
-  flex: 2;
-}
+  .singleProjectcategory {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 100;
+  }
 
-.singleProjectAcheives {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 50px;
-  justify-content: center;
-}
+  .singleProjectContent {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
 
-.singleProjectImages {
-  height: 800px;
-  width: 100%;
-  object-fit: cover;
-  cursor: pointer;
-}
+  .singleProjectInfobox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.popupcontainer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  background-color: white;
-  width: 100%;
+  .singleProjectInfo {
+    flex: 1;
+  }
+
+  .singleProjectInfotext {
+    font-size: 12px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .singleProjectInfoarticle {
+    font-size: 9px;
+    color: var(--white);
+  }
+
+  .singleProjectArticlebox {
+    flex: 2;
+  }
+
+  .singleProjectAcheives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .singleProjectAcheiveTitle {
+    font-size: 10px;
+    color: var(--white);
+  }
+
+  .singleProjectInfotitle {
+    font-size: 12px;
+    color: var(--white);
+    font-weight: bolder;
+  }
+
+  .singleProjectArticle {
+    font-size: 9px;
+    color: var(--white);
+    text-align: justify;
+  }
+  .singleProjectAcheiveTitlelist {
+    font-size: 6px;
+    color: var(--white);
+  }
+  .imagesArrayBox {
+    padding: 20px 20px;
+  }
+
+  .singleProjectImages {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .popupcontainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+  }
 }

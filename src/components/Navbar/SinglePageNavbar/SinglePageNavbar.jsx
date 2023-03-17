@@ -3,7 +3,7 @@ import "./SinglePageNavbar.css";
 import Logo from "../../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { GrClose } from "react-icons/gr";
+import { MdClose } from "react-icons/md";
 
 const SinglePageNavbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -41,7 +41,7 @@ const SinglePageNavbar = () => {
               </Link>
             </div>
             <div>
-              <GrClose
+              <MdClose
                 className="singlepageNavbaropen"
                 onClick={() => setSidebar(false)}
               />
@@ -49,11 +49,11 @@ const SinglePageNavbar = () => {
           </div>
           {/* 2nd column */}
           <div className="singlepagesidebarnavlinks">
-            <span>Home</span>
-            <span>About</span>
-            <span>Services</span>
-            <span>Blog</span>
-            <span>Contact</span>
+            <span className="singlepagesidebarnavlink">Home</span>
+            <span className="singlepagesidebarnavlink">About</span>
+            <span className="singlepagesidebarnavlink">Services</span>
+            <span className="singlepagesidebarnavlink">Blog</span>
+            <span className="singlepagesidebarnavlink">Contact</span>
           </div>
         </div>
       )}
@@ -62,11 +62,3 @@ const SinglePageNavbar = () => {
 };
 
 export default SinglePageNavbar;
-
-/**
- {navDatas.map((data) => (
-              <div className="singlepagesidebarnavlink">
-                <span className="">{data.name}</span>
-              </div>
-            ))}
- */

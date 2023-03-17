@@ -9,12 +9,11 @@ import Marquee from "../components/Marquee/Marquee";
 const HomePage = () => {
   return (
     <>
-      <SinglePageNavbar />
       <SliderContent />
       <Projects />
       <AboutUs />
       <Team />
-      <Marquee />
+      <Marquee Contenttitle=" WE GENERATE CREATIVE & INNOVATION IDEAS / WE GENERATE CREATIVE & INNOVATION IDEAS" />
     </>
   );
 };

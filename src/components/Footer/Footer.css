@@ -5,6 +5,8 @@
     gap: 100px;
     padding: 50px 50px;
     background-color: var(--backgroundblack);
+    border-top: 2px solid white;
+    /* margin-top: 60px; */
   }
 
   .footerTextContent {
@@ -119,6 +121,7 @@
     gap: 100px;
     padding: 20px 20px;
     background-color: var(--backgroundblack);
+    border-top: 2px solid white;
   }
 
   .footerTextContent {
@@ -233,6 +236,7 @@
     gap: 100px;
     padding: 20px 20px;
     background-color: var(--backgroundblack);
+    border-top: 2px solid white;
   }
 
   .footerTextContent {
@@ -347,6 +351,7 @@
     gap: 100px;
     padding: 20px 20px;
     background-color: var(--backgroundblack);
+    border-top: 2px solid white;
   }
 
   .footerTextContent {
@@ -461,6 +466,7 @@
     gap: 100px;
     padding: 20px 20px;
     background-color: var(--backgroundblack);
+    border-top: 2px solid white;
   }
 
   .footerTextContent {

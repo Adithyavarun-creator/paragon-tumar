@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import "./SingleProject.css";
 import { projectList } from "../../datas/projectList";
 import Modal from "../Modal/Modal";
+import Marquee from "../Marquee/Marquee";
 
 const SingleProject = () => {
   const { slug } = useParams();
@@ -33,6 +34,10 @@ const SingleProject = () => {
           />
         </div>
 
+        {/* <div>
+          <Marquee ContentTitle="UX / Design / Identity" />
+        </div> */}
+
         <div>
           <div className="singleProjectimageText">
             <span className="singleProjecttitle">{project?.title}</span>
@@ -45,40 +50,42 @@ const SingleProject = () => {
 
           <div className="singleProjectInfobox">
             <div className="singleProjectInfo">
-              <span>Project Info</span>
+              <span className="singleProjectInfotext">Project Info</span>
             </div>
             <div className="singleProjectArticlebox">
-              <article>{project?.info}</article>
+              <article className="singleProjectInfoarticle">
+                {project?.info}
+              </article>
             </div>
           </div>
           <div className="singleProjectAcheives">
             <div className="no-disc">
               <div>
-                <span>Platforms</span>
+                <span className="singleProjectAcheiveTitle">Platforms</span>
               </div>
               {project?.platforms?.map((list, i) => (
                 <div key={i}>
-                  <li>{list}</li>
+                  <li className="singleProjectAcheiveTitlelist">{list}</li>
                 </div>
               ))}
             </div>
             <div className="no-disc">
               <div>
-                <span>Awards</span>
+                <span className="singleProjectAcheiveTitle">Awards</span>
               </div>
               {project?.awards?.map((list, i) => (
                 <div key={i}>
-                  <li>{list}</li>
+                  <li className="singleProjectAcheiveTitlelist">{list}</li>
                 </div>
               ))}
             </div>
             <div className="no-disc">
               <div>
-                <span>Roles</span>
+                <span className="singleProjectAcheiveTitle">Roles</span>
               </div>
               {project?.role?.map((list, i) => (
                 <div key={i}>
-                  <li>{list}</li>
+                  <li className="singleProjectAcheiveTitlelist">{list}</li>
                 </div>
               ))}
             </div>
@@ -87,10 +94,12 @@ const SingleProject = () => {
 
           <div className="singleProjectInfobox">
             <div className="singleProjectInfo">
-              <span>IPhone kombucha shaman gastropub</span>
+              <span className="singleProjectInfotitle">
+                IPhone kombucha shaman gastropub
+              </span>
             </div>
             <div className="singleProjectArticlebox">
-              <article>
+              <article className="singleProjectArticle">
                 IPhone kombucha shaman gastropub snackwave 90's lo-fi pug
                 chillwave pok pok tofu. Swag deep v listicle roof party seitan
                 man braid raclette church-key trust fund locavore vexillologist
@@ -104,7 +113,7 @@ const SingleProject = () => {
         </div>
 
         {project?.imagesArray?.map((image, i) => (
-          <div key={i}>
+          <div className="imagesArrayBox" key={i}>
             <img
               onClick={() => setFile(image)}
               className={file ? "bg-light" : "singleProjectImages"}
@@ -118,10 +127,12 @@ const SingleProject = () => {
         <div className="singleProjectContent">
           <div className="singleProjectInfobox">
             <div className="singleProjectInfo">
-              <span>IPhone humblebrag kale chips</span>
+              <span className="singleProjectInfotitle">
+                IPhone humblebrag kale chips
+              </span>
             </div>
             <div className="singleProjectArticlebox">
-              <article>
+              <article className="singleProjectArticle">
                 Brooklyn whatever chia deep v slow-carb lomo put a bird on.
                 Austin fam chia cold-pressed raw denim. Retro jean shorts cronut
                 lumbersexual mixtape hella you probably haven't heard of them
@@ -138,10 +149,12 @@ const SingleProject = () => {
         <div className="singleProjectContent">
           <div className="singleProjectInfobox">
             <div className="singleProjectInfo">
-              <span>Austin fam chia cold-pressed raw</span>
+              <span className="singleProjectInfotitle">
+                Austin fam chia cold-pressed raw
+              </span>
             </div>
             <div className="singleProjectArticlebox">
-              <article>
+              <article className="singleProjectArticle">
                 3 wolf moon microdosing scenester, tilde roof party affogato
                 typewriter celiac echo park craft beer bicycle rights man braid
                 trust fund four dollar toast gentrify. Mixtape kinfolk cray,
