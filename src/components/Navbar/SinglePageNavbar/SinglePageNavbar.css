@@ -242,7 +242,7 @@
   .singlepageNavbar {
     display: flex;
     flex-direction: row;
-    padding: 30px 30px;
+    padding: 20px 20px;
     position: fixed;
     top: 0;
     right: 0;
@@ -281,7 +281,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 30px;
+    padding: 20px 20px;
   }
 
   .singlepagesidebarnavlinks {
@@ -289,7 +289,7 @@
     flex-direction: column;
     gap: 1px;
     margin-top: -30px;
-    padding: 40px 20px;
+    padding: 20px 20px;
   }
 
   .singlepagesidebarnavlink {
