@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./SingleProject.css";
-import { projectList } from "../../datas/projectList";
+import { projectList, mainProjectList } from "../../datas/projectList";
 import Modal from "../Modal/Modal";
 import Marquee from "../Marquee/Marquee";
 
@@ -12,7 +12,7 @@ const SingleProject = () => {
   const [file, setFile] = useState(null);
 
   useEffect(() => {
-    const myProject = projectList.find((p) => p.slug === slug);
+    const myProject = mainProjectList.find((p) => p.slug === slug);
     if (myProject) {
       setProject(myProject);
     }
@@ -33,10 +33,6 @@ const SingleProject = () => {
             className="singleProjectcover"
           />
         </div>
-
-        {/* <div>
-          <Marquee ContentTitle="UX / Design / Identity" />
-        </div> */}
 
         <div>
           <div className="singleProjectimageText">

@@ -5,7 +5,9 @@ const Marquee = () => {
   return (
     <div className="marquee-box">
       <div className="marquee-w">
-        <span>WE GENERATE CREATIVE & INNOVATION IDEAS /</span>
+        <span>
+          Blockchain Secured Physical Asset / Freeport Stored / 1:1 Ownership /
+        </span>
       </div>
     </div>
   );

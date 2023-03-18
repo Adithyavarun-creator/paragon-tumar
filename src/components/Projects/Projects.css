@@ -15,6 +15,12 @@
     justify-content: center;
   }
 
+  .projectCard {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
   .projectCard:nth-child(even) {
     margin-bottom: -650px;
     margin-top: 300px;
@@ -24,9 +30,9 @@
     margin-bottom: 100px;
   }
   .projectImage {
-    height: 750px;
+    height: 580px;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .projectContent {
@@ -63,6 +69,12 @@
     justify-content: center;
   }
 
+  .projectCard {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
   .projectCard:nth-child(even) {
     margin-bottom: -650px;
     margin-top: 300px;
@@ -72,9 +84,9 @@
     margin-bottom: 100px;
   }
   .projectImage {
-    height: 750px;
+    height: 500px;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .projectContent {
@@ -100,7 +112,7 @@
     flex-direction: column;
     gap: 40px;
     background-color: var(--white);
-    padding: 35px 35px;
+    padding: 50px 50px;
   }
 
   .projectCardbox {
@@ -111,18 +123,24 @@
     justify-content: center;
   }
 
+  .projectCard {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
   .projectCard:nth-child(even) {
     margin-bottom: -650px;
-    margin-top: 300px;
+    margin-top: 200px;
   }
 
   .projectCard:last-child {
     margin-bottom: 100px;
   }
   .projectImage {
-    height: 500px;
+    height: 280px;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .projectContent {
@@ -165,7 +183,7 @@
   .projectImage {
     height: 500px;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .projectContent {
@@ -208,7 +226,7 @@
   .projectImage {
     height: 300px;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .projectContent {

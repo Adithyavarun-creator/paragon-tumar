@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { projectList } from "../../datas/projectList";
+import { projectList,mainProjectList } from "../../datas/projectList";
 import Title from "../Title/Title";
 import { Link } from "react-router-dom";
 
@@ -13,7 +13,7 @@ const Projects = () => {
         </div>
 
         <div className="projectCardbox">
-          {projectList.map((project) => (
+          {mainProjectList.map((project) => (
             <Link
               to={`/project/${project.slug}`}
               className="projectCard navigationLinks"
