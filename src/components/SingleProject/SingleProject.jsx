@@ -57,7 +57,9 @@ const SingleProject = () => {
           <div className="singleProjectAcheives">
             <div className="no-disc">
               <div>
-                <span className="singleProjectAcheiveTitle">Platforms</span>
+                <span className="singleProjectAcheiveTitle">
+                  The physical Artwork
+                </span>
               </div>
               {project?.platforms?.map((list, i) => (
                 <div key={i}>
@@ -67,21 +69,69 @@ const SingleProject = () => {
             </div>
             <div className="no-disc">
               <div>
-                <span className="singleProjectAcheiveTitle">Awards</span>
+                <span className="singleProjectAcheiveTitle">
+                  The Storage Location
+                </span>
               </div>
-              {project?.awards?.map((list, i) => (
+              {project?.storage?.map((p, i) => (
                 <div key={i}>
-                  <li className="singleProjectAcheiveTitlelist">{list}</li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Name : {p.name}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Country : {p.country}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Category : {p.category}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Security Level : {p.securityLevel}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    SQRS Storage Location : {p.sqrsLocation}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Address : {p.address}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Website : {p.website}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Contact : {p.contact}
+                  </li>
                 </div>
               ))}
             </div>
+
             <div className="no-disc">
               <div>
-                <span className="singleProjectAcheiveTitle">Roles</span>
+                <span className="singleProjectAcheiveTitle">
+                  The Ethereum Contract
+                </span>
               </div>
-              {project?.role?.map((list, i) => (
+              {project?.contractDetails?.map((p, i) => (
                 <div key={i}>
-                  <li className="singleProjectAcheiveTitlelist">{list}</li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Contract Address : {p.contractAddress}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Network : {p.network}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Descritpion : {p.description}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Definition : {p.definition}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    SNFT Functions : {p.snft}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Browser Link : {p.browser}
+                  </li>
+                  <li className="singleProjectAcheiveTitlelist">
+                    Deep Link : {p.deepLink}
+                  </li>
                 </div>
               ))}
             </div>

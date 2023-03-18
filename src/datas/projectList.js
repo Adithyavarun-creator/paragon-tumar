@@ -229,8 +229,41 @@ export const mainProjectList = [
     year: 2020,
     slug: "curology",
     info: "Godard slow-carb chartreuse occupy, tumblr letterpress pok pok tattooed yr lyft yuccie kinfolk. IPhone kombucha shaman gastropub snackwave 90's lo-fi pug chillwave pok pok tofu. Swag deep v listicle roof party seitan man braid raclette church-key trust fund locavore vexillologist green juice raw denim tilde meh. Austin thundercats locavore taiyaki snackwave hoodie put a bird on it tattooed selvage kitsch ramps.",
+    //     Artist:
+    // Title:
+    // Year:
+    // Material:
+    // Size:
+    // Edition:
     platforms: ["Mobile", "Tablet", "Desktop"],
     awards: ["Best Services", "Best Website", "Best Agency"],
+    storage: [
+      {
+        name: "ZentralDepot GmbH",
+        country: "Germany",
+        category: "Freeport – Bonded Warehouse",
+        securityLevel: "High-Security Warehouse",
+        sqrsLocation:
+          "Underground, Multiple Secured, Central Bank Standard Vault",
+        address: "Linden Allee 2a, 98617 Meiningen",
+        website: "https://www.zentraldepot.de/?lang=en",
+        contact: "https://www.zentraldepot.de/contact?lang=en ",
+      },
+    ],
+    contractDetails: [
+      {
+        contractAddress: "0xebffF332ee65510506529b43B6e70e61A60233b6",
+        network: "Ethereum Main Net",
+        technology: "SNFT",
+        description:
+          "Function Integrated Autonomous Logical Unit – fully on chain in contract – no third-party access",
+        definition:
+          "Fully Autonomous, Decentralized, Self-Owned Asset. Full and direct control by the SNFT owner. All Functions executed by the owner high secure on chain. No low security off chain actions, no third parties involved.",
+        snft: "InStore, OutStore, SetMeta, SetPrice, StartAuction",
+        browser: "https://snft.ae/?/3:1",
+        deeplink: "https://metamask.app.link/dapp/snft.ae/?/3:1",
+      },
+    ],
     role: ["UX/UI Design", "Web Development", "Motion Design"],
     coverImage: QrCode1,
     imagesArray: [

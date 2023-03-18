@@ -191,13 +191,22 @@
 
   .singleProjectAcheives {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 300px 300px 1fr;
+    column-gap: 40px;
     justify-content: center;
-    row-gap: 30px;
+    row-gap: 10px;
+  }
+
+  .cDetailbox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
   }
   .singleProjectAcheiveTitle {
-    font-size: 28px;
+    font-size: 20px;
     color: var(--white);
   }
 
@@ -213,7 +222,7 @@
     text-align: justify;
   }
   .singleProjectAcheiveTitlelist {
-    font-size: 18px;
+    font-size: 16px;
     color: var(--white);
   }
 
