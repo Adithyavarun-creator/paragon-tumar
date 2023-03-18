@@ -49,6 +49,7 @@
   .singleProjectInfobox {
     display: flex;
     flex-direction: row;
+    gap: 30px;
   }
 
   .singleProjectInfo {
@@ -165,6 +166,7 @@
   .singleProjectInfobox {
     display: flex;
     flex-direction: row;
+    gap: 30px;
   }
 
   .singleProjectInfo {

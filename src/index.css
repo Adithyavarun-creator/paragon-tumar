@@ -5,13 +5,19 @@
   --buttonColor: #fd5524;
   --contrastColor: #2c2c2c;
 }
-
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: var(--backgroundblack);
+  /* background: var(--backgroundblack); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
 }
 
 html {
@@ -33,7 +39,6 @@ html {
 
 .no-disc {
   list-style: none;
-
 }
 
 .bg-light {

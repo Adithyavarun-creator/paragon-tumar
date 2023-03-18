@@ -244,6 +244,10 @@
   .sliderBox {
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .overflow {
@@ -264,7 +268,7 @@
 
   .sliderImagetextPosition {
     position: absolute;
-    top: 100px;
+    top: 180px;
     right: 0;
     left: 0;
     padding-left: 40px;
@@ -284,7 +288,7 @@
 
   .sliderImageButtonpos {
     position: absolute;
-    top: 330px;
+    top: 380px;
     padding-left: 40px;
     left: 0;
     display: flex;

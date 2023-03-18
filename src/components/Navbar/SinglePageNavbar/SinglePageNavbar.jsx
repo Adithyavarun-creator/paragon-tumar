@@ -4,6 +4,7 @@ import Logo from "../../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
+import { navDatas } from "../../../datas/navDatas";
 
 const SinglePageNavbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -49,11 +50,16 @@ const SinglePageNavbar = () => {
           </div>
           {/* 2nd column */}
           <div className="singlepagesidebarnavlinks">
-            <span className="singlepagesidebarnavlink">Home</span>
-            <span className="singlepagesidebarnavlink">About</span>
-            <span className="singlepagesidebarnavlink">Services</span>
-            <span className="singlepagesidebarnavlink">Blog</span>
-            <span className="singlepagesidebarnavlink">Contact</span>
+            {navDatas.map((data) => (
+              <Link to={data.link} className="navigationLinks" key={data.id}>
+                <span
+                  className="singlepagesidebarnavlink"
+                  onClick={() => setSidebar(false)}
+                >
+                  {data.name}
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       )}

@@ -5,6 +5,7 @@
     flex-direction: column;
     margin-top: 100px;
     row-gap: 50px;
+    background: var(--backgroundblack);
   }
 
   .aboutContent {
@@ -183,6 +184,7 @@
     flex-direction: column;
     margin-top: 100px;
     row-gap: 50px;
+    background: var(--backgroundblack);
   }
 
   .aboutContent {
@@ -361,6 +363,7 @@
     margin-top: 100px;
     row-gap: 50px;
     padding: 20px 20px;
+    background: var(--backgroundblack);
   }
 
   .aboutContent {
@@ -539,6 +542,7 @@
     margin-top: 100px;
     row-gap: 50px;
     padding: 20px 20px;
+    background: var(--backgroundblack);
   }
 
   .aboutContent {
@@ -720,6 +724,7 @@
     flex-direction: column;
     margin-top: 100px;
     row-gap: 50px;
+    background: var(--backgroundblack);
     padding: 20px 20px;
   }
 

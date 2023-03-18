@@ -13,7 +13,8 @@ const HomePage = () => {
       <Projects />
       <AboutUs />
       <Team />
-      <Marquee Contenttitle=" WE GENERATE CREATIVE & INNOVATION IDEAS / WE GENERATE CREATIVE & INNOVATION IDEAS" />
+      <Marquee />
+      {/* <div className="mb-50"></div> */}
     </>
   );
 };
