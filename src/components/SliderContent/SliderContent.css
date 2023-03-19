@@ -271,7 +271,7 @@
     top: 100px;
     right: 0;
     left: 0;
-    padding-left: 40px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -279,17 +279,23 @@
 
   .sliderImagetext {
     color: var(--white);
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bolder;
   }
   .mainSlider {
     background: #eca;
   }
 
+  .sliderContentbox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
   .sliderImageButtonpos {
     position: absolute;
-    top: 370px;
-    padding-left: 40px;
+    top: 320px;
+    padding-left: 20px;
     left: 0;
     display: flex;
     align-items: center;

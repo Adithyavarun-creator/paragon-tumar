@@ -39,13 +39,15 @@ export default function SwiperSlides() {
             <div>
               <img className="sliderImage" alt="" src={image.imageLink} />
             </div>
-            <div className="sliderImagetextPosition">
-              <span className="sliderImagetext">{image.text1}</span>
-              <span className="sliderImagetext">{image.text2}</span>
-              <span className="sliderImagetext">{image.text3}</span>
-            </div>
-            <div className="sliderImageButtonpos">
-              <button className="sliderImageButton">Learn More</button>
+            <div className="sliderContentbox">
+              <div className="sliderImagetextPosition">
+                <span className="sliderImagetext">{image.text1}</span>
+                <span className="sliderImagetext">{image.text2}</span>
+                <span className="sliderImagetext">{image.text3}</span>
+              </div>
+              <div className="sliderImageButtonpos">
+                <button className="sliderImageButton">Learn More</button>
+              </div>
             </div>
           </SwiperSlide>
         ))}
