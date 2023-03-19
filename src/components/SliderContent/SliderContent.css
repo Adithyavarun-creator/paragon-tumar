@@ -262,13 +262,13 @@
     min-width: 100%;
     object-fit: cover;
     object-position: center;
-    height: 600px;
+    height: 500px;
     z-index: -4;
   }
 
   .sliderImagetextPosition {
     position: absolute;
-    top: 180px;
+    top: 100px;
     right: 0;
     left: 0;
     padding-left: 40px;
@@ -279,7 +279,7 @@
 
   .sliderImagetext {
     color: var(--white);
-    font-size: 34px;
+    font-size: 30px;
     font-weight: bolder;
   }
   .mainSlider {
@@ -288,7 +288,7 @@
 
   .sliderImageButtonpos {
     position: absolute;
-    top: 380px;
+    top: 370px;
     padding-left: 40px;
     left: 0;
     display: flex;
