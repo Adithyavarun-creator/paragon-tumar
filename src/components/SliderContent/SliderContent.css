@@ -268,7 +268,7 @@
 
   .sliderImagetextPosition {
     position: absolute;
-    top: 100px;
+    top: 150px;
     right: 0;
     left: 0;
     padding-left: 20px;
@@ -286,11 +286,11 @@
     background: #eca;
   }
 
-  .sliderContentbox {
+  /* .sliderContentbox {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-  }
+    gap: 80px;
+  } */
 
   .sliderImageButtonpos {
     position: absolute;
