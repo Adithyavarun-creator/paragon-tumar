@@ -1,13 +1,11 @@
 import React from "react";
 import "./Marquee.css";
 
-const Marquee = () => {
+const Marquee = ({ runningText }) => {
   return (
     <div className="marquee-box">
       <div className="marquee-w">
-        <span>
-          Blockchain Secured Physical Asset / Freeport Stored / 1:1 Ownership /
-        </span>
+        <span>{runningText}</span>
       </div>
     </div>
   );

@@ -4,6 +4,10 @@ import "./SingleProject.css";
 import { projectList, mainProjectList } from "../../datas/projectList";
 import Modal from "../Modal/Modal";
 import Marquee from "../Marquee/Marquee";
+import { MdLocationOn } from "react-icons/md";
+import { FaEthereum } from "react-icons/fa";
+import LocationSVG from "../../assets/svg/location.svg";
+import EthereumSVG from "../../assets/svg/ethereum.svg";
 
 const SingleProject = () => {
   const { slug } = useParams();
@@ -55,7 +59,7 @@ const SingleProject = () => {
             </div>
           </div>
           <div className="singleProjectAcheives">
-            <div className="no-disc">
+            {/* <div className="no-disc">
               <div>
                 <span className="singleProjectAcheiveTitle">
                   The physical Artwork
@@ -66,72 +70,276 @@ const SingleProject = () => {
                   <li className="singleProjectAcheiveTitlelist">{list}</li>
                 </div>
               ))}
-            </div>
+            </div> */}
             <div className="no-disc">
-              <div>
-                <span className="singleProjectAcheiveTitle">
-                  The Storage Location
-                </span>
+              <div className="flexRow">
+                <div>
+                  <span className="singleProjectAcheiveTitle">
+                    The Storage Location
+                  </span>
+                </div>
+                {/* <div>
+                  <MdLocationOn className="projectContentIcon" />
+                </div> */}
+                <div>
+                  <img src={LocationSVG} className="projectContentIcon" />
+                </div>
               </div>
               {project?.storage?.map((p, i) => (
-                <div key={i}>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Name : {p.name}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Country : {p.country}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Category : {p.category}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Security Level : {p.securityLevel}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    SQRS Storage Location : {p.sqrsLocation}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Address : {p.address}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Website : {p.website}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Contact : {p.contact}
-                  </li>
+                <div key={i} className="projectGridtype">
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Art Name</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.name}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Country</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.country}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Category</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.category}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Security Level</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.securityLevel}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">SQRS Location</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.sqrsLocation}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Address</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.address}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Website</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.website}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Contact</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.contact}</span>
+                    </div>
+                  </div>
                 </div>
+                // <div key={i}>
+                //   <li className="singleProjectAcheiveTitlelist">
+                //     Name : {p.name}
+                //   </li>
+                //   <li className="singleProjectAcheiveTitlelist">
+                //     Country : {p.country}
+                //   </li>
+                //   <li className="singleProjectAcheiveTitlelist">
+                //     Category : {p.category}
+                //   </li>
+                //   <li className="singleProjectAcheiveTitlelist">
+                //     Security Level : {p.securityLevel}
+                //   </li>
+                //   <li className="singleProjectAcheiveTitlelist">
+                //     SQRS Storage Location : {p.sqrsLocation}
+                //   </li>
+                //   <li className="singleProjectAcheiveTitlelist">
+                //     Address : {p.address}
+                //   </li>
+                //   <li className="singleProjectAcheiveTitlelist">
+                //     Website : {p.website}
+                //   </li>
+                //   <li className="singleProjectAcheiveTitlelist">
+                //     Contact : {p.contact}
+                //   </li>
+                // </div>
               ))}
             </div>
 
             <div className="no-disc">
-              <div>
-                <span className="singleProjectAcheiveTitle">
-                  The Ethereum Contract
-                </span>
+              <div className="flexRow">
+                <div>
+                  <span className="singleProjectAcheiveTitle">
+                    The Ethereum Contract
+                  </span>
+                </div>
+                <div>
+                  <img src={EthereumSVG} className="projectContentIcon" />
+                </div>
               </div>
               {project?.contractDetails?.map((p, i) => (
-                <div key={i}>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Contract Address : {p.contractAddress}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Network : {p.network}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Descritpion : {p.description}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Definition : {p.definition}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    SNFT Functions : {p.snft}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Browser Link : {p.browser}
-                  </li>
-                  <li className="singleProjectAcheiveTitlelist">
-                    Deep Link : {p.deepLink}
-                  </li>
+                <div key={i} className="projectGridtype">
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Contract Address</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">
+                        {p.contractAddress}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Network</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.network}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Description</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.description}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Defintion</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.definition}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">SNFT Functions</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.snft}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Browser</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.browser}</span>
+                    </div>
+                  </div>
+
+                  <div className="projectGridlist">
+                    <div>
+                      <span className="projectGridname">Deeplink</span>
+                    </div>
+                    <div>
+                      <span className="" style={{ color: "white" }}>
+                        -
+                      </span>
+                    </div>
+                    <div>
+                      <span className="projectGriddata">{p.deepLink}</span>
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>
@@ -158,7 +366,7 @@ const SingleProject = () => {
           </div>
         </div>
 
-        {project?.imagesArray?.map((image, i) => (
+        {/* {project?.imagesArray?.map((image, i) => (
           <div className="imagesArrayBox" key={i}>
             <img
               onClick={() => setFile(image)}
@@ -166,7 +374,7 @@ const SingleProject = () => {
               src={image.image}
             />
           </div>
-        ))}
+        ))} */}
 
         {file && <Modal file={file} setFile={setFile} src={file?.image} />}
 

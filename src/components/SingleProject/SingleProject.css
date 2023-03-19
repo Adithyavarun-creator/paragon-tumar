@@ -73,13 +73,59 @@
 
   .singleProjectAcheives {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 40px;
     justify-content: center;
-    row-gap: 30px;
+    row-gap: 10px;
+  }
+
+  .projectContentIcon {
+    /* color: var(--buttonColor); */
+    height: 50px;
+    width: 100%;
+  }
+
+  .projectGridtype {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: var(--buttonColor); */
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: var(--backgroundblack);
+    /* background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%); */
+  }
+
+  .projectGridlist {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-items: center;
+    gap: 100px; */
+    gap: 10px;
+    align-items: center;
+  }
+
+  .projectGridname {
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+    /* padding: 3px 3px;
+    background-color: white;
+    border: 1px solid orangered; */
+  }
+
+  .projectGriddata {
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
   }
   .singleProjectAcheiveTitle {
-    font-size: 28px;
+    font-size: 20px;
     color: var(--white);
   }
 
@@ -95,7 +141,7 @@
     text-align: justify;
   }
   .singleProjectAcheiveTitlelist {
-    font-size: 18px;
+    font-size: 16px;
     color: var(--white);
   }
 
@@ -191,19 +237,56 @@
 
   .singleProjectAcheives {
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: 300px 300px 1fr;
+    grid-template-columns: 2fr 2fr;
     column-gap: 40px;
     justify-content: center;
     row-gap: 10px;
   }
 
-  .cDetailbox {
+  .projectContentIcon {
+    /* color: var(--buttonColor); */
+    height: 50px;
+    width: 100%;
+  }
+
+  .projectGridtype {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
+    /* background-color: var(--buttonColor); */
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: var(--backgroundblack);
+    /* background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%); */
+  }
+
+  .projectGridlist {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-items: center;
+    gap: 100px; */
+    gap: 10px;
     align-items: center;
-    justify-content: center;
+  }
+
+  .projectGridname {
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+    /* padding: 3px 3px;
+    background-color: white;
+    border: 1px solid orangered; */
+  }
+
+  .projectGriddata {
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
   }
   .singleProjectAcheiveTitle {
     font-size: 20px;
@@ -247,7 +330,7 @@
   .singleProjectContainer {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     background: var(--backgroundblack);
   }
 
@@ -294,8 +377,8 @@
 
   .singleProjectInfobox {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 30px;
   }
 
   .singleProjectInfo {
@@ -303,11 +386,10 @@
   }
 
   .singleProjectInfotext {
-    font-size: 24px;
+    font-size: 20px;
     color: var(--white);
     font-weight: bolder;
   }
-
   .singleProjectInfoarticle {
     font-size: 16px;
     color: var(--white);
@@ -319,37 +401,76 @@
 
   .singleProjectAcheives {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
-    justify-content: center;
-    row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    /* justify-content: center; */
+    row-gap: 10px;
+  }
+
+  .projectContentIcon {
+    /* color: var(--buttonColor); */
+    height: 40px;
+    width: 100%;
+  }
+
+  .projectGridtype {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: var(--backgroundblack);
+    /* background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%); */
+  }
+
+  .projectGridlist {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .projectGridname {
+    font-size: 11px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+    /* padding: 3px 3px;
+    background-color: white;
+    border: 1px solid orangered; */
+  }
+
+  .projectGriddata {
+    font-size: 11px;
+    font-weight: bolder;
+    color: white;
   }
   .singleProjectAcheiveTitle {
-    font-size: 24px;
+    font-size: 17px;
     color: var(--white);
   }
 
   .singleProjectInfotitle {
-    font-size: 22px;
+    font-size: 30px;
     color: var(--white);
     font-weight: bolder;
   }
 
   .singleProjectArticle {
-    font-size: 20px;
+    font-size: 24px;
     color: var(--white);
     text-align: justify;
   }
   .singleProjectAcheiveTitlelist {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--white);
-  }
-  .imagesArrayBox {
-    padding: 20px 20px;
   }
 
   .singleProjectImages {
-    height: 500px;
+    height: 800px;
     width: 100%;
     object-fit: cover;
     cursor: pointer;
@@ -369,13 +490,13 @@
   .singleProjectContainer {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     background: var(--backgroundblack);
   }
 
   .singleProjectcover {
     width: 100%;
-    height: 480px;
+    height: 680px;
     object-fit: cover;
     filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -387,13 +508,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 150px;
+    top: 300px;
     right: 0;
     left: 0;
   }
 
   .singleProjecttitle {
-    font-size: 35px;
+    font-size: 30px;
     color: var(--white);
     text-transform: uppercase;
     z-index: 100;
@@ -401,7 +522,7 @@
   }
 
   .singleProjectcategory {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     text-transform: uppercase;
     z-index: 100;
@@ -416,8 +537,8 @@
 
   .singleProjectInfobox {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 30px;
   }
 
   .singleProjectInfo {
@@ -425,13 +546,12 @@
   }
 
   .singleProjectInfotext {
-    font-size: 18px;
+    font-size: 20px;
     color: var(--white);
     font-weight: bolder;
   }
-
   .singleProjectInfoarticle {
-    font-size: 16px;
+    font-size: 13px;
     color: var(--white);
   }
 
@@ -441,37 +561,75 @@
 
   .singleProjectAcheives {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
-    justify-content: center;
-    row-gap: 30px;
+    grid-template-columns: 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+  }
+
+  .projectContentIcon {
+    /* color: var(--buttonColor); */
+    height: 40px;
+    width: 100%;
+  }
+
+  .projectGridtype {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: var(--backgroundblack);
+    /* background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%); */
+  }
+
+  .projectGridlist {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .projectGridname {
+    font-size: 10px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+    /* padding: 3px 3px;
+    background-color: white;
+    border: 1px solid orangered; */
+  }
+
+  .projectGriddata {
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
   }
   .singleProjectAcheiveTitle {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--white);
   }
 
   .singleProjectInfotitle {
-    font-size: 20px;
+    font-size: 16px;
     color: var(--white);
     font-weight: bolder;
   }
 
   .singleProjectArticle {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--white);
     text-align: justify;
   }
   .singleProjectAcheiveTitlelist {
-    font-size: 18px;
+    font-size: 16px;
     color: var(--white);
-  }
-  .imagesArrayBox {
-    padding: 20px 20px;
   }
 
   .singleProjectImages {
-    height: 300px;
+    height: 800px;
     width: 100%;
     object-fit: cover;
     cursor: pointer;
@@ -491,13 +649,13 @@
   .singleProjectContainer {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     background: var(--backgroundblack);
   }
 
   .singleProjectcover {
     width: 100%;
-    height: 450px;
+    height: 680px;
     object-fit: cover;
     filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -509,29 +667,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 150px;
+    top: 300px;
     right: 0;
     left: 0;
   }
 
   .singleProjecttitle {
-    font-size: 24px;
+    font-size: 30px;
     color: var(--white);
     text-transform: uppercase;
     z-index: 100;
     font-weight: bolder;
-    text-align: center;
   }
 
   .singleProjectcategory {
-    font-size: 20px;
+    font-size: 40px;
     color: white;
     text-transform: uppercase;
     z-index: 100;
   }
 
   .singleProjectContent {
-    padding: 15px 15px;
+    padding: 60px 60px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -539,8 +696,8 @@
 
   .singleProjectInfobox {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 30px;
   }
 
   .singleProjectInfo {
@@ -548,13 +705,12 @@
   }
 
   .singleProjectInfotext {
-    font-size: 12px;
+    font-size: 15px;
     color: var(--white);
     font-weight: bolder;
   }
-
   .singleProjectInfoarticle {
-    font-size: 9px;
+    font-size: 13px;
     color: var(--white);
   }
 
@@ -564,37 +720,75 @@
 
   .singleProjectAcheives {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
     justify-content: center;
-    row-gap: 30px;
+  }
+
+  .projectContentIcon {
+    /* color: var(--buttonColor); */
+    height: 40px;
+    width: 100%;
+  }
+
+  .projectGridtype {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: var(--backgroundblack);
+    /* background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%); */
+  }
+
+  .projectGridlist {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .projectGridname {
+    font-size: 7.5px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+    /* padding: 3px 3px;
+    background-color: white;
+    border: 1px solid orangered; */
+  }
+
+  .projectGriddata {
+    font-size: 8px;
+    font-weight: bolder;
+    color: white;
   }
   .singleProjectAcheiveTitle {
-    font-size: 10px;
+    font-size: 18px;
     color: var(--white);
   }
 
   .singleProjectInfotitle {
-    font-size: 12px;
+    font-size: 16px;
     color: var(--white);
     font-weight: bolder;
   }
 
   .singleProjectArticle {
-    font-size: 9px;
+    font-size: 16px;
     color: var(--white);
     text-align: justify;
   }
   .singleProjectAcheiveTitlelist {
-    font-size: 6px;
+    font-size: 16px;
     color: var(--white);
-  }
-  .imagesArrayBox {
-    padding: 20px 20px;
   }
 
   .singleProjectImages {
-    height: 200px;
+    height: 800px;
     width: 100%;
     object-fit: cover;
     cursor: pointer;

@@ -15,25 +15,10 @@ const carouselImages = [
     id: 1,
     imageLink:
       "https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fHBsYWluJTIwY29sb3JzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60",
-    text1: "We Generate",
-    text2: "And Create",
-    text3: "Innovative Ideas",
-  },
-  {
-    id: 2,
-    imageLink:
-      "https://images.unsplash.com/photo-1502622796232-e88458466c33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHBsYWluJTIwY29sb3JzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60",
-    text1: "We Provide",
-    text2: "You Best",
-    text3: "Digital Services",
-  },
-  {
-    id: 3,
-    imageLink:
-      "https://images.unsplash.com/photo-1534492472349-181b5922f240?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHBsYWluJTIwY29sb3JzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60",
-    text1: "Best Solutions",
-    text2: "& Ideas For",
-    text3: "Your Business",
+    // million $ Fine art
+    text1: "Own and exchange million",
+    text2: " $ Fine art",
+    text3: "on your smartphone ",
   },
 ];
 
@@ -60,7 +45,7 @@ export default function SwiperSlides() {
               <span className="sliderImagetext">{image.text3}</span>
             </div>
             <div className="sliderImageButtonpos">
-              <button className="sliderImageButton">Read More</button>
+              <button className="sliderImageButton">Learn More</button>
             </div>
           </SwiperSlide>
         ))}

@@ -13,7 +13,7 @@ const HomePage = () => {
       <Projects />
       <AboutUs />
       <Team />
-      <Marquee />
+      <Marquee runningText="Blockchain Secured Physical Asset / Freeport Stored / 1:1 Ownership /" />
       {/* <div className="mb-50"></div> */}
     </>
   );

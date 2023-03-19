@@ -69,7 +69,7 @@ const Contact = () => {
               {/* Box 2 */}
               <div className="contactBox">
                 <div>
-                  <span className="contactBoxheading">Marketing</span>
+                  <span className="contactBoxheading">Press</span>
                 </div>
                 <div className="contactBoxlinks">
                   <div>
@@ -84,7 +84,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <span className="contactBoxheadingsubs">
-                      email@tumar_agency.com
+                      press@sqares.com
                     </span>
                   </div>
                 </div>
@@ -115,18 +115,13 @@ const Contact = () => {
               {/* Box 4 */}
               <div className="contactBox">
                 <div>
-                  <span className="contactBoxheadingsubs">Careers</span>
+                  <span className="contactBoxheadingsubs">
+                    Investors Relations
+                  </span>
                 </div>
                 <div className="contactBoxlinks">
                   <div>
-                    <span className="contactBoxheadingsubs">
-                      email@tumar_career.com
-                    </span>
-                  </div>
-                  <div>
-                    <span className="contactBoxheadingsubs">
-                      email@tumar_job.com
-                    </span>
+                    <span className="contactBoxheadingsubs">IR@sqares.com</span>
                   </div>
                 </div>
               </div>

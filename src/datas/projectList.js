@@ -261,7 +261,7 @@ export const mainProjectList = [
           "Fully Autonomous, Decentralized, Self-Owned Asset. Full and direct control by the SNFT owner. All Functions executed by the owner high secure on chain. No low security off chain actions, no third parties involved.",
         snft: "InStore, OutStore, SetMeta, SetPrice, StartAuction",
         browser: "https://snft.ae/?/3:1",
-        deeplink: "https://metamask.app.link/dapp/snft.ae/?/3:1",
+        deepLink: "https://metamask.app.link/dapp/snft.ae/?/3:1",
       },
     ],
     role: ["UX/UI Design", "Web Development", "Motion Design"],

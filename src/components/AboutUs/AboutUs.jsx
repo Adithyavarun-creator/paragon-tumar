@@ -68,28 +68,78 @@ const AboutUs = () => {
             <span className="aboutWhatheadingtext">What We Do</span>
           </div>
           <div className="aboutWhatWeDoContent">
-            {whatWeDo.map((project) => (
-              <div className="aboutContents" key={project.id}>
-                <div className="aboutContentNames">
-                  <span className="aboutContentnumber">0{project.id}</span>
-                  <span className="aboutContenttitle">{project.title}</span>
-                </div>
-                <div className="aboutContentNames">
-                  <span className="spacebar">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  </span>
-                  <span className="aboutContentdesc">
-                    {project.description}
-                  </span>
-                </div>
-                <div className="border-top" />
+            {/* {whatWeDo.map((project) => ( */}
+            <div className="aboutContents">
+              <div className="aboutContentNames">
+                <span className="aboutContentnumber">01</span>
+                <span className="aboutContenttitle">Download the App</span>
               </div>
-            ))}
+              <div className="aboutContentNames">
+                <span className="spacebar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span className="aboutContentdesc">
+                  To own and interact with the SQRS you only need a Wallet app
+                  with a Browser. For this we recommend downloading Meta Mask.
+                  The QR Codes contained in SQRS are Deep Links for Meta Mask –
+                  so you can buy, sell, see the SQRS just by scanning the SQRS
+                  QR Code
+                </span>
+
+                <div>
+                  <a href="https://apps.apple.com/us/app/metamask-blockchain-wallet/id1438144202">
+                    Link
+                  </a>
+                  <a href="https://play.google.com/store/apps/details?id=io.metamask&hl=en_US&gl=US&pli=1">
+                    Link
+                  </a>
+                </div>
+              </div>
+
+              <div className="border-top" />
+            </div>
+            {/* ))} */}
+
+            <div className="aboutContents">
+              <div className="aboutContentNames">
+                <span className="aboutContentnumber">02</span>
+                <span className="aboutContenttitle">Own Currency</span>
+              </div>
+              <div className="aboutContentNames">
+                <span className="spacebar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span className="aboutContentdesc">
+                  To buy a SQRS you need Blockchain Based Currency – Crypto
+                  currencies. SQRS is using 4 different currencies, free for the
+                  owner to choose from for the pricing. Most common is USDC – a
+                  US Dollar Derivate. For high secure transactions we recommend
+                  our own crypto currency – ARES – Asset Related Electronic
+                  Securities.
+                </span>
+              </div>
+              <div className="border-top" />
+            </div>
+
+            <div className="aboutContents">
+              <div className="aboutContentNames">
+                <span className="aboutContentnumber">03</span>
+                <span className="aboutContenttitle">Scan & Buy</span>
+              </div>
+              <div className="aboutContentNames">
+                <span className="spacebar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span className="aboutContentdesc">
+                  By scanning the QR code with your smartphone you get direct
+                  linked to the buying website of the SQRS in our App. By
+                  one-click-buy you become owner of this SQRS and so of the real
+                  asset. With the SQRS you are every time, without any third
+                  parties, able to collect your physical asset. Or trade it at
+                  any time again on the blockchain.
+                </span>
+              </div>
+              <div className="border-top" />
+            </div>
           </div>
         </div>
 
         {/* Work Process */}
-        <div className="aboutContent">
+        {/* <div className="aboutContent">
           <div className="aboutWhat">
             <span className="aboutWhatheadingtext">Work Process</span>
           </div>
@@ -110,10 +160,10 @@ const AboutUs = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Our Skills */}
-        <div className="aboutContent">
+        {/* <div className="aboutContent">
           <div className="aboutWhat">
             <span className="aboutWhatheadingtext">Our Skills</span>
           </div>
@@ -143,7 +193,7 @@ const AboutUs = () => {
             ))}
             <div className="border-bottom" />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
