@@ -56,16 +56,13 @@
     color: var(--white);
     font-size: 20px;
     outline: none;
-    border: 1px solid white;
     background-color: var(--buttonColor);
     border: none;
     offset: none;
-    outline: none;
     align-items: center;
   }
 
-  .sliderImageButton:hover{
-    
+  .sliderImageButton:hover {
   }
 }
 
@@ -127,7 +124,11 @@
     color: var(--white);
     font-size: 20px;
     outline: none;
-    border: 1px solid white;
+    background-color: var(--buttonColor);
+    border: none;
+    offset: none;
+    outline: none;
+    align-items: center;
   }
 }
 
@@ -189,7 +190,10 @@
     color: var(--white);
     font-size: 18px;
     outline: none;
-    border: 1px solid white;
+    background-color: var(--buttonColor);
+    border: none;
+    offset: none;
+    align-items: center;
   }
 }
 
@@ -249,7 +253,10 @@
     color: var(--white);
     font-size: 18px;
     outline: none;
-    border: 1px solid white;
+    background-color: var(--buttonColor);
+    border: none;
+    offset: none;
+    align-items: center;
   }
 }
 
@@ -315,6 +322,9 @@
     color: var(--white);
     font-size: 18px;
     outline: none;
-    border: 1px solid white;
+    background-color: var(--buttonColor);
+    border: none;
+    offset: none;
+    align-items: center;
   }
 }
