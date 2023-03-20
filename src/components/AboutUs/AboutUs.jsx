@@ -83,13 +83,26 @@ const AboutUs = () => {
                   so you can buy, sell, see the SQRS just by scanning the SQRS
                   QR Code
                 </span>
-
-                <div>
-                  <a href="https://apps.apple.com/us/app/metamask-blockchain-wallet/id1438144202">
-                    Link
+              </div>
+              <div className="aboutApplinks">
+                <div className="aboutApplinkbox">
+                  <span className="aboutApphandIcon">👉🏻</span>
+                  <a
+                    className="aboutApplink"
+                    target="_blank"
+                    href="https://apps.apple.com/us/app/metamask-blockchain-wallet/id1438144202"
+                  >
+                    https://apps.apple.com/us/app/metamask-blockchain-wallet/id1438144202
                   </a>
-                  <a href="https://play.google.com/store/apps/details?id=io.metamask&hl=en_US&gl=US&pli=1">
-                    Link
+                </div>
+                <div className="aboutApplinkbox">
+                  <span className="aboutApphandIcon">👉🏻</span>
+                  <a
+                    className="aboutApplink"
+                    target="_blank"
+                    href="https://play.google.com/store/apps/details?id=io.metamask&hl=en_US&gl=US&pli=1"
+                  >
+                    https://play.google.com/store/apps/details?id=io.metamask&hl=en_US&gl=US&pli=1
                   </a>
                 </div>
               </div>

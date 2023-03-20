@@ -1,44 +1,109 @@
 @media (min-width: 1281px) {
-  .centerTitle {
+  .whitestrokeTitle {
     text-align: center;
-    font-size: 48px;
+    font-size: 120px;
     font-weight: lighter;
     text-transform: uppercase;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .blackstrokeTitle {
+    text-align: center;
+    font-size: 120px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .centerTitle {
+  .whitestrokeTitle {
     text-align: center;
-    font-size: 48px;
+    font-size: 100px;
     font-weight: lighter;
     text-transform: uppercase;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .blackstrokeTitle {
+    text-align: center;
+    font-size: 100px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .centerTitle {
+  .whitestrokeTitle {
     text-align: center;
-    font-size: 44px;
+    font-size: 75px;
     font-weight: lighter;
     text-transform: uppercase;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .blackstrokeTitle {
+    text-align: center;
+    font-size: 75px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .centerTitle {
+  .whitestrokeTitle {
     text-align: center;
-    font-size: 40px;
+    font-size: 75px;
     font-weight: lighter;
     text-transform: uppercase;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .blackstrokeTitle {
+    text-align: center;
+    font-size: 75px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
   }
 }
 
 @media (min-width: 250px) and (max-width: 480px) {
-  .centerTitle {
+  .whitestrokeTitle {
     text-align: center;
-    font-size: 36px;
+    font-size: 45px;
     font-weight: lighter;
     text-transform: uppercase;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .blackstrokeTitle {
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
   }
 }

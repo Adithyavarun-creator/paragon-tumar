@@ -41,9 +41,15 @@ export default function SwiperSlides() {
             </div>
             <div className="sliderContentbox">
               <div className="sliderImagetextPosition">
-                <span className="sliderImagetext">{image.text1}</span>
-                <span className="sliderImagetext">{image.text2}</span>
-                <span className="sliderImagetext">{image.text3}</span>
+                <div>
+                  <span className="sliderImagetext">{image.text1}</span>
+                </div>
+                <div>
+                  <span className="sliderImagetext">{image.text2}</span>
+                </div>
+                <div>
+                  <span className="sliderImagetext">{image.text3}</span>
+                </div>
               </div>
               <div className="sliderImageButtonpos">
                 <button className="sliderImageButton">Learn More</button>

@@ -1,10 +1,11 @@
 import React from "react";
 import "./Title.css";
 
-const Title = ({ title }) => {
+const Title = ({ whiteStrokeTitle, blackStrokeTitle }) => {
   return (
     <div>
-      <h1 className="centerTitle">{title}</h1>
+      {whiteStrokeTitle && <h1 className="whitestrokeTitle">{whiteStrokeTitle}</h1>}
+      {blackStrokeTitle && <h1 className="blackstrokeTitle">{blackStrokeTitle}</h1>}
     </div>
   );
 };

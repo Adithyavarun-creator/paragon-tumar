@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <>
       <div className="teamContainer">
-        <Title title="Our Creative Team" />
+        <Title blackStrokeTitle="Our Creative Team" />
 
         <div className="teamContent">
           <div className="teamImageContent">

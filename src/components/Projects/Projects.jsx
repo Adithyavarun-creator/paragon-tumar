@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { projectList,mainProjectList } from "../../datas/projectList";
+import { projectList, mainProjectList } from "../../datas/projectList";
 import Title from "../Title/Title";
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ const Projects = () => {
     <>
       <div className="projectContainer">
         <div className="projectTitleBox">
-          <Title title="Projects" />
+          <Title whiteStrokeTitle="Projects" />
         </div>
 
         <div className="projectCardbox">
@@ -20,7 +20,7 @@ const Projects = () => {
               key={project.id}
             >
               <div>
-                <img className="projectImage" src={project.coverImage} />
+                <img className="projectImage" src={project.qrImage} />
               </div>
               <div className="projectContent">
                 <div>
