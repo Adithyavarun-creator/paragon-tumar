@@ -1,9 +1,6 @@
-import React from "react";
-import Marquee from "../Marquee/Marquee";
+import React, { useEffect } from "react";
 import Title from "../Title/Title";
 import "./Team.css";
-
-//        <Title title="Our Creative Team" />
 
 const Team = () => {
   return (
@@ -83,7 +80,6 @@ const Team = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

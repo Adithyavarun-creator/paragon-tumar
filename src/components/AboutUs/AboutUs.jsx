@@ -1,8 +1,5 @@
 import React, { Fragment } from "react";
 import "./AboutUs.css";
-import { whatWeDo } from "../../datas/whatWeDo";
-import { workProcess } from "../../datas/workProcess";
-import { ourSkills } from "../../datas/ourSkills";
 
 const AboutUs = () => {
   return (

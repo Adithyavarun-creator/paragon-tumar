@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import "./SinglePageNavbar.css";
-import Logo from "../../../assets/logo/logo.png";
+import "./Navbar.css";
+import Logo from "../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
-import { navDatas } from "../../../datas/navDatas";
+import { navDatas } from "../../datas/navDatas";
+//animations
 
-const SinglePageNavbar = () => {
+const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
 
   return (
@@ -67,4 +68,4 @@ const SinglePageNavbar = () => {
   );
 };
 
-export default SinglePageNavbar;
+export default Navbar;

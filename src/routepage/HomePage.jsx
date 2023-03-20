@@ -3,7 +3,6 @@ import SliderContent from "../components/SliderContent/SliderContent";
 import Projects from "../components/Projects/Projects";
 import AboutUs from "../components/AboutUs/AboutUs";
 import Team from "../components/Team/Team";
-import SinglePageNavbar from "../components/Navbar/SinglePageNavbar/SinglePageNavbar";
 import Marquee from "../components/Marquee/Marquee";
 
 const HomePage = () => {
@@ -14,7 +13,6 @@ const HomePage = () => {
       <AboutUs />
       <Team />
       <Marquee runningText="Blockchain Secured Physical Asset / Freeport Stored / 1:1 Ownership /" />
-      {/* <div className="mb-50"></div> */}
     </>
   );
 };

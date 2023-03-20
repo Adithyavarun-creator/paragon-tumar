@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./SingleProject.css";
-import { projectList, mainProjectList } from "../../datas/projectList";
+import {  mainProjectList } from "../../datas/projectList";
 import Modal from "../Modal/Modal";
 import Marquee from "../Marquee/Marquee";
 import { MdLocationOn } from "react-icons/md";

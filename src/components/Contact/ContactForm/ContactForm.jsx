@@ -62,10 +62,8 @@ const ContactForm = () => {
             />
           </div>
         </div>
-        <div>
-          <div className="flexCenter">
-            <button className="contactFormbutton">Submit</button>
-          </div>
+        <div className="flexCenter">
+          <button className="contactFormbutton">Submit</button>
         </div>
       </form>
     </div>

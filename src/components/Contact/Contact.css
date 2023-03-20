@@ -28,7 +28,7 @@
 
   .contactvideoText {
     font-size: 38px;
-    color: var(--white);
+    color: white;
     z-index: 30;
     font-weight: bold;
   }
@@ -71,18 +71,18 @@
 
   .contactDetailBoxtext {
     font-size: 40px;
-    color: var(--white);
+    color: black;
     text-transform: uppercase;
   }
 
   .contactBoxheading {
     font-size: 24px;
-    color: var(--white);
+    color: black;
   }
 
   .contactBoxheadingsubs {
     font-size: 22px;
-    color: var(--white);
+    color: black;
   }
 
   .contactBoxlinks {
@@ -164,18 +164,18 @@
 
   .contactDetailBoxtext {
     font-size: 38px;
-    color: var(--white);
+    color: black;
     text-transform: uppercase;
   }
 
   .contactBoxheading {
     font-size: 24px;
-    color: var(--white);
+    color: black;
   }
 
   .contactBoxheadingsubs {
     font-size: 22px;
-    color: var(--white);
+    color: black;
   }
 
   .contactBoxlinks {
@@ -257,18 +257,18 @@
 
   .contactDetailBoxtext {
     font-size: 35px;
-    color: var(--white);
+    color: black;
     text-transform: uppercase;
   }
 
   .contactBoxheading {
     font-size: 24px;
-    color: var(--white);
+    color: black;
   }
 
   .contactBoxheadingsubs {
     font-size: 20px;
-    color: var(--white);
+    color: black;
   }
 
   .contactBoxlinks {
@@ -350,18 +350,18 @@
   }
   .contactDetailBoxtext {
     font-size: 28px;
-    color: var(--white);
+    color: black;
     text-transform: uppercase;
   }
 
   .contactBoxheading {
     font-size: 14px;
-    color: var(--white);
+    color: black;
   }
 
   .contactBoxheadingsubs {
     font-size: 12px;
-    color: var(--white);
+    color: black;
   }
 
   .contactBoxlinks {
@@ -372,4 +372,94 @@
 }
 
 @media (min-width: 250px) and (max-width: 480px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+
+  .contactofficevideo {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    filter: blur(2px);
+  }
+
+  .contactvideoTextbox {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 40px 40px;
+  }
+
+  .contactvideoText {
+    font-size: 28px;
+    color: white;
+    z-index: 30;
+    font-weight: bold;
+  }
+
+  .contactDetailsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 15px;
+    /* align-items: center; */
+  }
+
+  .contactImageBox {
+    flex: 2;
+  }
+
+  .contactDetailBox {
+    flex: 2;
+  }
+
+  .contactImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .contactBoxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-top: 30px;
+  }
+
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .contactDetailBoxtext {
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+  }
+
+  .contactBoxheading {
+    font-size: 12px;
+    color: black;
+  }
+
+  .contactBoxheadingsubs {
+    font-size: 10px;
+    color: black;
+  }
+
+  .contactBoxlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
 }

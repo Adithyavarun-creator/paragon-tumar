@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "../components/Contact/Contact";
-import SinglePageNavbar from "../components/Navbar/SinglePageNavbar/SinglePageNavbar";
+import SinglePageNavbar from "../components/Navbar/Navbar";
 
 const ContactPage = () => {
   return (
