@@ -47,6 +47,7 @@
 
   .contactDetailBox {
     flex: 2;
+    overflow: hidden;
   }
 
   .contactImage {

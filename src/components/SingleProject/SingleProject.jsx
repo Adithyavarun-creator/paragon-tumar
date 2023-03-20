@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./SingleProject.css";
-import {  mainProjectList } from "../../datas/projectList";
+import { mainProjectList } from "../../datas/projectList";
 import Modal from "../Modal/Modal";
 import Marquee from "../Marquee/Marquee";
 import { MdLocationOn } from "react-icons/md";
 import { FaEthereum } from "react-icons/fa";
 import LocationSVG from "../../assets/svg/location.svg";
 import EthereumSVG from "../../assets/svg/ethereum.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const SingleProject = () => {
   const { slug } = useParams();
@@ -22,6 +24,10 @@ const SingleProject = () => {
     }
     window.scrollTo(0, 0);
   }, [slug]);
+
+  useEffect(() => {
+    AOS.init({ duration: 2400 });
+  }, []);
 
   //console.log(project);
 
@@ -39,7 +45,7 @@ const SingleProject = () => {
         </div>
 
         <div>
-          <div className="singleProjectimageText">
+          <div className="singleProjectimageText" data-aos="fade-down">
             <span className="singleProjecttitle">{project?.title}</span>
             <span className="singleProjectcategory">{project?.category}</span>
           </div>
@@ -49,11 +55,14 @@ const SingleProject = () => {
           <div className="border-top" />
 
           <div className="singleProjectInfobox">
-            <div className="singleProjectInfo">
+            <div className="singleProjectInfo" data-aos="zoom-in-right">
               <span className="singleProjectInfotext">Project Info</span>
             </div>
             <div className="singleProjectArticlebox">
-              <article className="singleProjectInfoarticle">
+              <article
+                className="singleProjectInfoarticle"
+                data-aos="zoom-in-left"
+              >
                 {project?.info}
               </article>
             </div>
@@ -344,12 +353,12 @@ const SingleProject = () => {
           <div className="border-bottom"></div>
 
           <div className="singleProjectInfobox">
-            <div className="singleProjectInfo">
+            <div className="singleProjectInfo" data-aos="zoom-in-right">
               <span className="singleProjectInfotitle">
                 IPhone kombucha shaman gastropub
               </span>
             </div>
-            <div className="singleProjectArticlebox">
+            <div className="singleProjectArticlebox" data-aos="zoom-in-left">
               <article className="singleProjectArticle">
                 IPhone kombucha shaman gastropub snackwave 90's lo-fi pug
                 chillwave pok pok tofu. Swag deep v listicle roof party seitan
@@ -377,12 +386,12 @@ const SingleProject = () => {
 
         <div className="singleProjectContent">
           <div className="singleProjectInfobox">
-            <div className="singleProjectInfo">
+            <div className="singleProjectInfo" data-aos="zoom-in-right">
               <span className="singleProjectInfotitle">
                 IPhone humblebrag kale chips
               </span>
             </div>
-            <div className="singleProjectArticlebox">
+            <div className="singleProjectArticlebox" data-aos="zoom-in-left">
               <article className="singleProjectArticle">
                 Brooklyn whatever chia deep v slow-carb lomo put a bird on.
                 Austin fam chia cold-pressed raw denim. Retro jean shorts cronut
@@ -399,12 +408,12 @@ const SingleProject = () => {
 
         <div className="singleProjectContent">
           <div className="singleProjectInfobox">
-            <div className="singleProjectInfo">
+            <div className="singleProjectInfo" data-aos="zoom-in-right">
               <span className="singleProjectInfotitle">
                 Austin fam chia cold-pressed raw
               </span>
             </div>
-            <div className="singleProjectArticlebox">
+            <div className="singleProjectArticlebox" data-aos="zoom-in-left">
               <article className="singleProjectArticle">
                 3 wolf moon microdosing scenester, tilde roof party affogato
                 typewriter celiac echo park craft beer bicycle rights man braid

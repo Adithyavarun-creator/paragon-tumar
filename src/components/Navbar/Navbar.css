@@ -26,6 +26,13 @@
     cursor: pointer;
   }
 
+  .singlepageNavbarclose {
+    height: 60px;
+    width: 60px;
+    color: white;
+    cursor: pointer;
+  }
+
   .singlepageSidebar {
     position: fixed;
     z-index: 150;
@@ -80,6 +87,12 @@
   }
 
   .singlepageNavbaropen {
+    height: 45px;
+    width: 45px;
+    color: white;
+    cursor: pointer;
+  }
+  .singlepageNavbarclose {
     height: 45px;
     width: 45px;
     color: white;
@@ -146,6 +159,13 @@
     cursor: pointer;
   }
 
+  .singlepageNavbarclose {
+    height: 45px;
+    width: 45px;
+    color: white;
+    cursor: pointer;
+  }
+
   .singlepageSidebar {
     position: fixed;
     z-index: 150;
@@ -206,6 +226,13 @@
     cursor: pointer;
   }
 
+  .singlepageNavbarclose {
+    height: 40px;
+    width: 40px;
+    color: white;
+    cursor: pointer;
+  }
+
   .singlepageSidebar {
     position: fixed;
     z-index: 150;
@@ -260,6 +287,13 @@
   }
 
   .singlepageNavbaropen {
+    height: 30px;
+    width: 30px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .singlepageNavbarclose {
     height: 30px;
     width: 30px;
     color: white;

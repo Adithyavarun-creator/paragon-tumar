@@ -3,11 +3,15 @@ import "./Projects.css";
 import { mainProjectList } from "../../datas/projectList";
 import Title from "../Title/Title";
 import { Link } from "react-router-dom";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <>
-      <div className="projectContainer">
+      <div className="projectContainer" data-aos="fade-down">
         <div className="projectTitleBox">
           <Title whiteStrokeTitle="Projects" />
         </div>
@@ -18,6 +22,7 @@ const Projects = () => {
               to={`/project/${project.slug}`}
               className="projectCard navigationLinks"
               key={project.id}
+              data-aos="fade-up"
             >
               <div>
                 <img className="projectImage" src={project.qrImage} />

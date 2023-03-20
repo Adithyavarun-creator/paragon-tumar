@@ -233,7 +233,7 @@
   }
 
   .aboutWhatContent {
-    font-size: 15px;
+    font-size: 13px;
     text-align: justify;
     color: var(--white);
   }
@@ -267,7 +267,7 @@
     gap: 5px;
   }
   .aboutOptionList {
-    font-size: 14px;
+    font-size: 10px;
     color: var(--white);
   }
 
@@ -306,7 +306,7 @@
   }
   .aboutContentdesc {
     text-align: justify;
-    font-size: 18px;
+    font-size: 17px;
     color: var(--white);
   }
 
@@ -339,7 +339,7 @@
 
   .aboutApplink {
     color: white;
-    font-size: 19px;
+    font-size: 16px;
     text-decoration: underline;
   }
 
@@ -876,7 +876,7 @@
     gap: 5px;
   }
   .aboutOptionList {
-    font-size: 14px;
+    font-size: 10px;
     color: var(--white);
   }
 
