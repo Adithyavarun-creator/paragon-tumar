@@ -78,9 +78,6 @@ const SingleProject = () => {
                     The Storage Location
                   </span>
                 </div>
-                {/* <div>
-                  <MdLocationOn className="projectContentIcon" />
-                </div> */}
                 <div>
                   <img src={LocationSVG} className="projectContentIcon" />
                 </div>
