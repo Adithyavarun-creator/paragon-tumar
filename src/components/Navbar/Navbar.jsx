@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { navDatas } from "../../datas/navDatas";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -29,7 +30,16 @@ const Navbar = () => {
         </div>
       </nav>
       {sidebar && (
-        <div className="singlepageSidebar">
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{
+            type: "spring",
+            stiffness: 260,
+            damping: 20,
+          }}
+          className="singlepageSidebar"
+        >
           {/* 1st column */}
           <div className="singlepagesidebarheader">
             <div>
@@ -61,7 +71,7 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-        </div>
+        </motion.div>
       )}
     </>
   );

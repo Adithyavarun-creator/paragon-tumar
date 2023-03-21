@@ -3,11 +3,12 @@ import "./Projects.css";
 import { mainProjectList } from "../../datas/projectList";
 import Title from "../Title/Title";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
     <>
-      <div className="projectContainer">
+      <div>
         <div className="projectTitleBox">
           <Title whiteStrokeTitle="Projects" />
         </div>

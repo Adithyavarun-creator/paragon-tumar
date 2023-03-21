@@ -1,12 +1,4 @@
 @media (min-width: 1281px) {
-  @keyframes modalopen {
-    from {
-      transform: translateY(-200%);
-    }
-    to {
-      transform: translateY(0);
-    }
-  }
   .singlepageNavbar {
     display: flex;
     flex-direction: row;
@@ -18,7 +10,6 @@
     z-index: 150;
     align-items: center;
     justify-content: space-between;
-    animation: modalopen 2s ease-in 1s 1 linear none;
   }
 
   .singlepageNavbarlogo {
@@ -106,15 +97,6 @@
     width: 45px;
     color: white;
     cursor: pointer;
-  }
-
-  @keyframes modalopen {
-    from {
-      transform: translateX(-400px);
-    }
-    to {
-      transform: translateX(0);
-    }
   }
 
   .singlepageSidebar {

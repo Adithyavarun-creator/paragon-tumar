@@ -8,6 +8,7 @@ import { MdLocationOn } from "react-icons/md";
 import { FaEthereum } from "react-icons/fa";
 import LocationSVG from "../../assets/svg/location.svg";
 import EthereumSVG from "../../assets/svg/ethereum.svg";
+import { motion } from "framer-motion";
 
 const SingleProject = () => {
   const { slug } = useParams();
