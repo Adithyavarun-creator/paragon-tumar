@@ -1,21 +1,16 @@
 import React, { Fragment, useEffect } from "react";
 import "./AboutUs.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const AboutUs = () => {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
   return (
     <>
       <div className="aboutContainer">
         {/* Who We Are */}
         <div className="aboutContent">
-          <div className="aboutWhat" data-aos="fade-right">
+          <div className="aboutWhat">
             <span className="aboutWhatheadingtext">Who We Are</span>
           </div>
-          <div className="aboutWhatDoing" data-aos="zoom-in-up">
+          <div className="aboutWhatDoing">
             <div>
               <span className="aboutWhatContent">
                 Cloud bread cardigan messenger bag raw denim swag drinking
@@ -66,10 +61,10 @@ const AboutUs = () => {
 
         {/* What We Do */}
         <div className="aboutContent">
-          <div className="aboutWhat" data-aos="fade-right">
+          <div className="aboutWhat">
             <span className="aboutWhatheadingtext">What We Do</span>
           </div>
-          <div className="aboutWhatWeDoContent" data-aos="zoom-in-up">
+          <div className="aboutWhatWeDoContent">
             {/* {whatWeDo.map((project) => ( */}
             <div className="aboutContents">
               <div className="aboutContentNames">

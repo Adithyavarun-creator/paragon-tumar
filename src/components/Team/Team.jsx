@@ -1,19 +1,14 @@
 import React, { useEffect } from "react";
 import Title from "../Title/Title";
 import "./Team.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Team = () => {
-  useEffect(() => {
-    AOS.init({ duration: 2300 });
-  }, []);
   return (
     <>
       <div className="teamContainer">
         <Title blackStrokeTitle="Our Creative Team" />
 
-        <div className="teamContent" data-aos="flip-left">
+        <div className="teamContent">
           <div className="teamImageContent">
             <img
               className="teamImage"
@@ -37,7 +32,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="teamContent" data-aos="flip-right">
+        <div className="teamContent">
           <div className="teamIntro">
             <div className="teamIntroSubsLeft">
               <span className="teamPersonname">Amanda Bryan</span>
@@ -61,7 +56,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="teamContent" data-aos="flip-left">
+        <div className="teamContent">
           <div className="teamImageContent">
             <img
               className="teamImage"

@@ -916,7 +916,7 @@
   }
   .aboutContentdesc {
     text-align: justify;
-    font-size: 14px;
+    font-size: 11px;
     color: var(--white);
     margin-bottom: 30px;
   }
@@ -942,7 +942,7 @@
 
   .aboutApplink {
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     text-decoration: underline;
   }
 

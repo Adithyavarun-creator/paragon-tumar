@@ -5,19 +5,13 @@ import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { navDatas } from "../../datas/navDatas";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
 
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
-
   return (
     <>
-      <nav className="singlepageNavbar" data-aos="fade-down">
+      <nav className="singlepageNavbar">
         <div>
           <Link className="navigationLinks" to="/">
             <img
@@ -35,7 +29,7 @@ const Navbar = () => {
         </div>
       </nav>
       {sidebar && (
-        <div className="singlepageSidebar" data-aos="fade-down">
+        <div className="singlepageSidebar">
           {/* 1st column */}
           <div className="singlepagesidebarheader">
             <div>
@@ -47,7 +41,7 @@ const Navbar = () => {
                 />
               </Link>
             </div>
-            <div data-aos="fade-up">
+            <div>
               <MdClose
                 className="singlepageNavbarclose"
                 onClick={() => setSidebar(false)}

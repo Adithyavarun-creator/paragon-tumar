@@ -1,13 +1,8 @@
 import React, { useEffect } from "react";
 import ContactForm from "./ContactForm/ContactForm";
 import "./Contact.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Contact = () => {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  });
   return (
     <>
       <div className="contactContainer">
@@ -41,7 +36,7 @@ const Contact = () => {
               alt="contact"
             />
           </div>
-          <div className="contactDetailBox" data-aos="fade-up">
+          <div className="contactDetailBox">
             <div>
               <h2 className="contactDetailBoxtext">Contact Us</h2>
             </div>

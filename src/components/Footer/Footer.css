@@ -505,8 +505,8 @@
 
   .footerContact {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    column-gap: 10px;
   }
 
   .footerContactbox {
@@ -517,7 +517,7 @@
 
   .footerContactemail {
     color: var(--white);
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .emailText {
@@ -545,7 +545,7 @@
 
   .footerSocialtext {
     color: var(--white);
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .copyrightBox {
@@ -556,7 +556,7 @@
 
   .copyrightText {
     color: var(--white);
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .scrollUpicon {
