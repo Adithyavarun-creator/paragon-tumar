@@ -751,7 +751,7 @@
   }
 
   .projectGridname {
-    font-size: 7.5px;
+    font-size: 6.5px;
     border-radius: 30px;
     font-weight: bolder;
     color: white;
@@ -759,7 +759,7 @@
   }
 
   .projectGriddata {
-    font-size: 7.5px;
+    font-size: 6.5px;
     font-weight: bolder;
     color: white;
   }

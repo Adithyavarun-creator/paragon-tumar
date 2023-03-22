@@ -278,14 +278,14 @@
   .projectImage {
     height: 250px;
     width: 100%;
-    object-fit: fill;
+    object-fit: contain;
   }
 
   .projectContent {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding-top: 10px;
+    padding-top: 3px;
   }
 
   .projectDetails {
@@ -298,14 +298,14 @@
   }
 
   .projectHeading {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bolder;
   }
   .projectCategory {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .projectYear {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
